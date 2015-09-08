@@ -2,6 +2,7 @@
 
 namespace UnityStandardAssets.Utility
 {
+	[ExecuteInEditMode()]
 	public class SmoothFollow : MonoBehaviour
 	{
 
