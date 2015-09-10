@@ -7241,9 +7241,6 @@ GameObject:
   - 114: {fileID: 1087177020}
   - 114: {fileID: 1087177022}
   - 114: {fileID: 1087177019}
-  - 114: {fileID: 1087177024}
-  - 114: {fileID: 1087177023}
-  - 114: {fileID: 1087177025}
   - 114: {fileID: 1087177026}
   - 114: {fileID: 1087177027}
   m_Layer: 0
@@ -7506,57 +7503,6 @@ MonoBehaviour:
   blurIterations: 1
   blurType: 0
   fastBloomShader: {fileID: 4800000, guid: 68a00c837b82e4c6d92e7da765dc5f1d, type: 3}
---- !u!114 &1087177023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1087177013}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec92b071d2d424aecb3e46f28eb63174, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  adaptationSpeed: .0199999996
-  limitMinimum: .400000006
-  limitMaximum: 2.80999994
-  shaderLum: {fileID: 4800000, guid: befbb4b9c320b4b18a08ef7afb93b6c9, type: 3}
-  shaderReduce: {fileID: 4800000, guid: 57b33a14b6d5347c5a85c36f6cb3b280, type: 3}
-  shaderAdapt: {fileID: 4800000, guid: 257bc83cbeb544540bd0e558aa9b1383, type: 3}
-  shaderApply: {fileID: 4800000, guid: f4901f25d4e1542589348bbb89563d8e, type: 3}
---- !u!114 &1087177024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1087177013}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3309686a9fbbe6e42a182d5e0257704c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intensity: .419999987
-  threshold: 0
-  blurSpread: .400000006
-  separableBlurShader: {fileID: 4800000, guid: e97c14fbb5ea04c3a902cc533d7fc5d1, type: 3}
-  contrastCompositeShader: {fileID: 4800000, guid: 273404942eede4ea1883ca1fb2942507,
-    type: 3}
---- !u!114 &1087177025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1087177013}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f76806479d916a64aa03f8e3eba7912f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  distance: 49.5099983
-  height: 59.6500015
-  rotationDamping: 0
-  heightDamping: .5
 --- !u!114 &1087177026
 MonoBehaviour:
   m_ObjectHideFlags: 0
