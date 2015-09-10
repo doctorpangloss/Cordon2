@@ -54,22 +54,7 @@ namespace Scratch
 		{
 			Vector2 touchPosition = Vector2.zero;
 
-			if (Application.isEditor) {
-				var down = Input.GetMouseButton (0);
-				if (down) {
-					if (framesDown == 0) {
-						touchDown = Input.mousePosition;
-					}
-					framesDown++;
-					return;
-				} else if (!down && framesDown <= minFramesDown) {
-					framesDown = 0;
-					return;
-				}
-
-				touchPosition = Input.mousePosition;
-				framesDown = 0;
-			} else if (Application.isMobilePlatform) {
+			if (Application.isMobilePlatform) {
 				if (Input.touchCount == 0) {
 					return;
 				}
@@ -85,6 +70,21 @@ namespace Scratch
 				if (touch.phase != TouchPhase.Ended) {
 					return;
 				}
+			} else {
+				var down = Input.GetMouseButton (0);
+				if (down) {
+					if (framesDown == 0) {
+						touchDown = Input.mousePosition;
+					}
+					framesDown++;
+					return;
+				} else if (!down && framesDown <= minFramesDown) {
+					framesDown = 0;
+					return;
+				}
+				
+				touchPosition = Input.mousePosition;
+				framesDown = 0;
 			}
 
 			var swipe = touchPosition - touchDown;
