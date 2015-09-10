@@ -1,25 +1,32 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
 namespace Scratch
 {
-	public class MoveController : MonoBehaviour
+	public class MoveController : NetworkBehaviour
 	{
-		Animator animator;
+		CharacterController controller;
 
 		public float speed = 0.85f;
+
 
 		// Use this for initialization
 		void Start ()
 		{
-			animator = GetComponent<Animator> ();
-			animator.SetFloat ("Speed_f", speed);
+			// Move controller is disabled for non-local players.
+			if (!isLocalPlayer) {
+				enabled = false;
+				return;
+			}
+
+			controller = GetComponent<CharacterController> ();
 		}
 	
 		// Update is called once per frame
-		void Update ()
+		void FixedUpdate ()
 		{
-
+			controller.Move(transform.forward * Time.fixedDeltaTime * speed);
 		}
 
 		void SwipeNorth ()
