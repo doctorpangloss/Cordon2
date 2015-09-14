@@ -17,7 +17,7 @@ public class MinimapIcon : MonoBehaviour
 		// Now transform this viewport point to parent rect space
 		var width = parentRect.rect.width;
 		var height = parentRect.rect.height;
-		var newPosition = new Vector2 (Mathf.Lerp (-width / 2, width / 2, viewportPoint.x), Mathf.Lerp (-height / 2, height / 2, viewportPoint.y));
+		var newPosition = new Vector2 (-width / 2 + width * viewportPoint.x, -height / 2 + height * viewportPoint.y);
 		// Set this position;
 		rectTransform.anchoredPosition = newPosition;
 	}
