@@ -11,7 +11,8 @@ GameObject:
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
   - 64: {fileID: 6400000}
-  m_Layer: 0
+  - 65: {fileID: 6594120}
+  m_Layer: 9
   m_Name: Road Type 1 Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,8 +25,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: -4.3297803e-17, y: .707106769, z: .707106888, w: -4.32978096e-17}
-  m_LocalPosition: {x: 51.897377, y: 0, z: -.677280426}
+  m_LocalRotation: {x: 2.9839331e-08, y: .707106829, z: .707106829, w: -2.98023224e-08}
+  m_LocalPosition: {x: 2.48000002, y: -1.05999994, z: 23.9400005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -69,10 +70,22 @@ MeshCollider:
   m_GameObject: {fileID: 100000}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300330, guid: dda64ad2fa153f34fa5e6c88bf3c1397, type: 3}
+--- !u!65 &6594120
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.00000191, y: 4.00000095, z: 13.0799999}
+  m_Center: {x: -2.83593089e-15, y: 4, z: .281852126}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
