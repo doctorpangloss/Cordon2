@@ -21,26 +21,25 @@ public class MinimapCameraTrapezoid : UnityEngine.UI.Image
 		base.UpdateGeometry ();
 	}
 
+	Vector3[] points = new Vector3[] {
+		new Vector3 (0f, 0f, 0f),
+		new Vector3 (0f, 1f, 0f),
+		new Vector3 (1f, 1f, 0f),
+		new Vector3 (1f, 0f, 0f)
+	};
+	int[][] correspondences = new int[][] {
+		new int[] {0,1,2,3,4,7,12,13,16}, 
+		new int[] {5,6,8,9,10,11,17,20,21}, 
+		new int[] {18,22,23,29,30,32,33,34,35}, 
+		new int[] {14,15,19,24,25,26,27,28,31}
+	};
+
 	protected override void OnPopulateMesh (Mesh toFill)
 	{
 		base.OnPopulateMesh (toFill);
 
-		var points = new Vector3[] {
-			new Vector3 (0f, 0f, 0f),
-			new Vector3 (0f, 1f, 0f),
-			new Vector3 (1f, 1f, 0f),
-			new Vector3 (1f, 0f, 0f)
-		};
-
-		var correspondences = new int[][] {
-			new int[] {0,1,2,3,4,7,12,13,16}, 
-			new int[] {5,6,8,9,10,11,17,20,21}, 
-			new int[] {18,22,23,29,30,32,33,34,35}, 
-			new int[] {14,15,19,24,25,26,27,28,31}
-		};
-
 		var rect = parentRectTransform.rect;
-		List<Vector3> vertices = new List<Vector3> (toFill.vertices);
+		var vertices = toFill.vertices;
 		var width = rect.width;
 		var height = rect.height;
 		for (var i = 0; i < points.Length; i++) {
@@ -49,7 +48,7 @@ public class MinimapCameraTrapezoid : UnityEngine.UI.Image
 			RaycastHit hit;
 			if (Physics.Raycast (ray, out hit, gameCamera.farClipPlane, groundLayer)) {
 				var transformedPosition = minimapCamera.WorldToViewportPoint (hit.point);
-				if (vertices.Count == 36) {
+				if (vertices.Length == 36) {
 					foreach (var j in correspondences[i]) {
 						var vertex = vertices [j];
 						vertex.x = vertex.x * transformedPosition.x;
@@ -64,7 +63,7 @@ public class MinimapCameraTrapezoid : UnityEngine.UI.Image
 			}
 		}
 
-		toFill.SetVertices (vertices);
+		toFill.SetVertices (new List<Vector3>(vertices));
 //		lvertices = toFill.vertices;
 
 	}
