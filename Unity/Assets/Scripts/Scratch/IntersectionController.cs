@@ -26,7 +26,7 @@ namespace Scratch
 				if (isServer) {
 					AstarPath.active.Scan ();
 					if (PatientZeroController.instance != null) {
-						PatientZeroController.instance.WorldChanged ();
+						PatientZeroController.instance.WorldChanged (true);
 					}
 				}
 			}

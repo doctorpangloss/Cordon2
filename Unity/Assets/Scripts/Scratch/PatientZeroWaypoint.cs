@@ -3,7 +3,8 @@ using System.Collections;
 
 namespace Scratch
 {
-	public class IntersectionTriggerable : MonoBehaviour
+	public class PatientZeroWaypoint : MonoBehaviour
 	{
+
 	}
 }

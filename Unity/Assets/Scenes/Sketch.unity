@@ -330,14 +330,6 @@ Prefab:
       propertyPath: m_Name
       value: 3-Way Intersection (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 430154, guid: 4f85eef381b4740c7ae94519f842c522, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 430154, guid: 4f85eef381b4740c7ae94519f842c522, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f85eef381b4740c7ae94519f842c522, type: 2}
   m_IsPrefabParent: 0

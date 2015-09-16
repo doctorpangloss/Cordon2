@@ -74,15 +74,10 @@ namespace Scratch
 			seeker.StartPath (transform.position, destinationWaypoint.position, OnPathComplete);
 		}
 
-		void UpdatePath ()
-		{
-
-		}
-
 		void FindWaypoints ()
 		{
-			waypoints = waypoints.Concat (GameObject.FindGameObjectsWithTag (waypointTag)
-				.Select<GameObject, Transform> (go => go.transform))
+			waypoints = waypoints.Concat (GameObject.FindObjectsOfType<PatientZeroWaypoint>()
+				.Select<PatientZeroWaypoint, Transform> (go => go.transform))
 				.Distinct ()
 				.ToArray ();
 		}

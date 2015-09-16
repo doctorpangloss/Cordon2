@@ -235,6 +235,7 @@ GameObject:
   - 114: {fileID: 11474566}
   - 114: {fileID: 11437182}
   - 114: {fileID: 11402846}
+  - 114: {fileID: 11470282}
   m_Layer: 12
   m_Name: Player
   m_TagString: Untagged
@@ -1094,6 +1095,25 @@ MonoBehaviour:
     i15: 194
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
+--- !u!114 &11470282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c289f4efa554b18b22f713369b07ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveController: {fileID: 11475778}
+  triggerLayers:
+    serializedVersion: 2
+    m_Bits: 1024
+  brakingDistance: 4
+  shouldStop: 0
+  distanceTraveledSinceStop: 0
+  lastPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &11474566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1120,6 +1140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
+  moving: 1
 --- !u!137 &13702338
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1732,6 +1753,14 @@ Prefab:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: triggerLayers.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: moveController
+      value: 
+      objectReference: {fileID: 11475778}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 128258}
