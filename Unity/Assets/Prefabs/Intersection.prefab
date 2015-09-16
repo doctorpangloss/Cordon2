@@ -44,6 +44,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 430154}
+  - 65: {fileID: 6559432}
+  - 114: {fileID: 11460424}
+  - 114: {fileID: 11429678}
   m_Layer: 0
   m_Name: Intersection
   m_TagString: Untagged
@@ -133,7 +136,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .200000003, y: 0, z: -.100000001}
+  m_LocalPosition: {x: 32, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 491400}
@@ -351,6 +354,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.00000191, y: 4.00000095, z: .400001258}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6559432
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 8, y: 4, z: 8}
+  m_Center: {x: 4, y: 2, z: 4}
+--- !u!114 &11429678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 52
+    i1: 8
+    i2: 58
+    i3: 214
+    i4: 213
+    i5: 153
+    i6: 4
+    i7: 235
+    i8: 187
+    i9: 169
+    i10: 125
+    i11: 206
+    i12: 159
+    i13: 33
+    i14: 239
+    i15: 173
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &11460424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b58f0a4784d4c4b958ddf4226f8e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  block: {fileID: 6559432}
+  blocking: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

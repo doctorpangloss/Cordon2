@@ -26,6 +26,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 430154}
   - 65: {fileID: 6555716}
+  - 114: {fileID: 11425128}
+  - 65: {fileID: 6503750}
+  - 114: {fileID: 11454350}
   m_Layer: 0
   m_Name: 3-Way Intersection
   m_TagString: Untagged
@@ -129,8 +132,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121140}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 72, y: 0, z: -24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 491400}
@@ -300,6 +303,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125550}
   m_Mesh: {fileID: 4300320, guid: dda64ad2fa153f34fa5e6c88bf3c1397, type: 3}
+--- !u!65 &6503750
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 8, y: 4, z: 8}
+  m_Center: {x: 4, y: 2, z: 4}
 --- !u!65 &6555716
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -312,6 +327,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8, y: 4, z: 4}
   m_Center: {x: 4, y: 2, z: -2}
+--- !u!114 &11425128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b58f0a4784d4c4b958ddf4226f8e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  block: {fileID: 6503750}
+  blocking: 0
+--- !u!114 &11454350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 79
+    i1: 133
+    i2: 238
+    i3: 243
+    i4: 129
+    i5: 180
+    i6: 116
+    i7: 12
+    i8: 122
+    i9: 233
+    i10: 69
+    i11: 25
+    i12: 248
+    i13: 66
+    i14: 197
+    i15: 34
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

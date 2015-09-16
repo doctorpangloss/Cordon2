@@ -8,6 +8,11 @@ namespace Scratch
 {
 	public class PatientZeroController : NetworkBehaviour
 	{
+		public static PatientZeroController instance {
+			get;
+			private set;
+		}
+
 		public float speed = 8f;
 		public Transform[] waypoints;
 		[Tooltip("The AI will look for transforms with this tag to use as waypoints")]
@@ -30,6 +35,17 @@ namespace Scratch
 			new Vector3 (-1, 0, 0),
 			new Vector3 (0, 0, -1)
 		};
+
+		void Awake ()
+		{
+			instance = this;
+		}
+
+		public void WorldChanged ()
+		{
+			ChooseWaypoint ();
+
+		}
 
 		// Use this for initialization
 		void Start ()
@@ -55,6 +71,11 @@ namespace Scratch
 			currentDirection = Vector3.zero;
 			currentWaypointIndex = 0;
 			seeker.StartPath (transform.position, destinationWaypoint.position, OnPathComplete);
+		}
+
+		void UpdatePath ()
+		{
+
 		}
 
 		void FindWaypoints ()
