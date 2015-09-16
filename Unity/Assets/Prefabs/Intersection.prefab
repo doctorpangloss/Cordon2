@@ -44,11 +44,27 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 430154}
-  - 65: {fileID: 6559432}
   - 114: {fileID: 11460424}
   - 114: {fileID: 11429678}
   m_Layer: 0
   m_Name: Intersection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &122080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450920}
+  - 65: {fileID: 6500664}
+  - 114: {fileID: 11401798}
+  m_Layer: 10
+  m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,6 +83,22 @@ GameObject:
   - 65: {fileID: 6549764}
   m_Layer: 0
   m_Name: Road (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &135026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422324}
+  - 65: {fileID: 6561392}
+  m_Layer: 11
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,6 +137,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &422324
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 430154}
+  m_RootOrder: 6
 --- !u!4 &423296
 Transform:
   m_ObjectHideFlags: 1
@@ -136,7 +180,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 491400}
@@ -144,6 +188,8 @@ Transform:
   - {fileID: 434404}
   - {fileID: 444162}
   - {fileID: 424860}
+  - {fileID: 450920}
+  - {fileID: 422324}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &434404
@@ -170,6 +216,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 430154}
   m_RootOrder: 3
+--- !u!4 &450920
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122080}
+  m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 430154}
+  m_RootOrder: 5
 --- !u!4 &491400
 Transform:
   m_ObjectHideFlags: 1
@@ -306,6 +364,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125550}
   m_Mesh: {fileID: 4300320, guid: dda64ad2fa153f34fa5e6c88bf3c1397, type: 3}
+--- !u!65 &6500664
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8, y: 4, z: 8}
+  m_Center: {x: 4, y: 2, z: -4}
 --- !u!65 &6518490
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -354,18 +424,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.00000191, y: 4.00000095, z: .400001258}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6559432
+--- !u!65 &6561392
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 121140}
+  m_GameObject: {fileID: 135026}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 8, y: 4, z: 8}
   m_Center: {x: 4, y: 2, z: 4}
+--- !u!114 &11401798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aef99b7c4f7114768aa3e99d5ae43a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 121140}
 --- !u!114 &11429678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -409,7 +491,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b58f0a4784d4c4b958ddf4226f8e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  block: {fileID: 6559432}
+  block: {fileID: 6561392}
+  trigger: {fileID: 6500664}
   blocking: 0
 --- !u!1001 &100100000
 Prefab:

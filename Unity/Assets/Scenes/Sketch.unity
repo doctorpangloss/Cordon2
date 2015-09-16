@@ -539,6 +539,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 128258, guid: 1e37a08b2b1744153bbc554e501e6b78, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e37a08b2b1744153bbc554e501e6b78, type: 2}
   m_IsPrefabParent: 0
@@ -841,7 +845,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 60681650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.55000019, y: 0, z: -4.48744297}
+  m_LocalPosition: {x: 3.8900001, y: 0, z: -5.65999985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 195018377}
@@ -3385,7 +3389,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 377386515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.98999977, y: 0, z: 2.0999999}
+  m_LocalPosition: {x: 22.0100002, y: 0, z: 3.8900001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 195018377}
@@ -3937,7 +3941,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 424151009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.46000004, y: 0, z: 1.50999999}
+  m_LocalPosition: {x: 17.2700005, y: 0, z: 3.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 195018377}
@@ -9701,7 +9705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astarData:
-    dataString: UEsDBBQAAAgIAACYn+vD7z5QDQEAAK8BAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFtUE1rwkAQ/Ssy5wgqqWlzDnopbdBCobdxd2IGN7thP6xR/O/dRBI89DKwb+Z97LvBMbCE/AZnVIEgBzpgJoSkpRSvIpPZnLL14a1apC/rQ0pVlcI9AWuMh1wHpRJwhFbUX3iM5BI9k/azH7Jm9o1da1h7Bwk0eCnYedQieiwSUNxwXETfy/DuhnmNs1fHTqCLBt4GSiA4WhVl3TkWkVGhchH0NYvTbjz8B9yh5BDvl1GPRLCOzzQqYvDmnfXpw0hyI9igOz0VMV/GJKb1MeiVNsbuW7SOthbbevJ7Wq+KCWXNnlGVpFH5x8dMS3r00dj0PZd9NQ+5BKTF3y1fGzOlYV2ZvbBE+nPgDtr3P1BLAwQUAAAICAAAmJ/rcDr3eXQAAACCAAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAR2MsQ6CMBBA/+VmJBArp6wObobdMLS9K9zglUAhIcZ/l7q94b33gY3nRaJCC+cSoYBhttO4QFsfuAod9AJ2Fr0nrslfPRKeGBt3C5W5NM5wCAb6AtI+8dO++V90No1BlESHsoui6ZG3WdNIfI+rpuxV/fcHUEsBAi0AFAAACAgAAJif68PvPlANAQAArwEAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAJif63A693l0AAAAggAAAAkAJAAAAAAAAAAAAAAAWgEAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAAZAgAAAAA=
+    dataString: UEsDBBQAAAgIAACYn+tAXZerEQEAALEBAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFtUMtuwkAM/BXkc5AIBUI5R3Cp2ggqVerN2XWIxWY32gclIP69m6CoHHqx5BnPjO0bHANL2NzgjCoQbIBKzISQlEqxFpnMppStytdqtliuygVV1QLuCVhjPGx0UCoBR2hF/YnHKC7QM2k/+SZrJl/YtYa1d5BAg5ecnUctYsYsAcUNRyLmXoa+G+o11t4dO4EuBngbKIHgaJ4XdedYREWFykXQ1yxO+3HwH3CPkkOcT6MfiWAdn2l0xODNG+vTu5HkRrBBd3p6xDR9Wa7WcRvT+rjslbbGHlq0jnYW23pUPbHzfARZs2dUBWlU/nGaaUmPtMam/3TRP+dhloC0+LPja2Pcn0llDsIS6Y9BO9x4/wVQSwMEFAAACAgAAJif63A693l0AAAAggAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQEdjLEOgjAQQP/lZiQQK6esDm6G3TC0vSvc4JVAISHGf5e6veG994GN50WiQgvnEqGAYbbTuEBbH7gKHfQCdha9J67JXz0SnhgbdwuVuTTOcAgG+gLSPvHTvvlfdDaNQZREh7KLoumRt1nTSHyPq6bsVf33B1BLAQItABQAAAgIAACYn+tAXZerEQEAALEBAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+twOvd5dAAAAIIAAAAJACQAAAAAAAAAAAAAAF4BAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAHQIAAAAA
     upgradeData: 
     data_backup: 
     file_cachedStartup: {fileID: 4900000, guid: 4be345476906c4894a65572a16d5f788,
@@ -9777,7 +9781,7 @@ MonoBehaviour:
     pivotPointRoot: {fileID: 0}
     spreadOutCount: 1
   showGraphs: 1
-  lastUniqueAreaIndex: 30
+  lastUniqueAreaIndex: 1
 --- !u!4 &1137289477
 Transform:
   m_ObjectHideFlags: 0
@@ -16377,7 +16381,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1803749307}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.1199999, y: 0, z: -3.49000001}
+  m_LocalPosition: {x: 3.97000003, y: 0, z: -10.3299999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 195018377}

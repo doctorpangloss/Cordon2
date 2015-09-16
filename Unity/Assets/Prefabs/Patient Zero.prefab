@@ -234,7 +234,7 @@ GameObject:
   - 114: {fileID: 11437182}
   - 114: {fileID: 11436614}
   - 114: {fileID: 11469404}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Patient Zero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1735,6 +1735,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: waypointTag
       value: Patient Zero Waypoints
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

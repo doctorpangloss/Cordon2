@@ -41,10 +41,11 @@ namespace Scratch
 			instance = this;
 		}
 
-		public void WorldChanged ()
+		public void WorldChanged (bool isGraphUpdated = true)
 		{
+			// TODO: What happens when patient zero hits an intersections?
+			// Note, the graph has been updated at this point
 			ChooseWaypoint ();
-
 		}
 
 		// Use this for initialization
