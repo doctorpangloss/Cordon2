@@ -24,8 +24,8 @@ public class MinimapPanel : MonoBehaviour
 		foreach (var kv in icons) {
 			// If the unit has been destroyed, remove it and destroy its icon
 			if (kv.Key == null
-			    || !kv.Key.gameObject.activeSelf
-			    || !kv.Key.isActiveAndEnabled
+				|| !kv.Key.gameObject.activeSelf
+				|| !kv.Key.isActiveAndEnabled
 				|| !MinimapUnit.minimappables.Contains (kv.Key)) {
 				toRemove.Add (kv);
 			}
@@ -46,6 +46,7 @@ public class MinimapPanel : MonoBehaviour
 				var iconToInstantiate = unit.uiIconOverride ?? defaultIcon;
 				icon = Instantiate<MinimapIcon> (iconToInstantiate);
 				icon.transform.SetParent (this.transform, false);
+				icon.image.color = unit.color;
 				icons [unit] = icon;
 			}
 

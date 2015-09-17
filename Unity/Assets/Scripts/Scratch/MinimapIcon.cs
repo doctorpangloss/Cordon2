@@ -3,11 +3,17 @@ using System.Collections;
 
 public class MinimapIcon : MonoBehaviour
 {
+	public UnityEngine.UI.Image image {
+		get;
+		private set;
+	}
+
 	RectTransform rectTransform;
 	// Use this for initialization
 	void Awake ()
 	{
 		rectTransform = GetComponent<RectTransform> ();
+		image = GetComponent<UnityEngine.UI.Image> ();
 	}
 
 	public void UpdateWithData (RectTransform parentRect = null, Camera minimapCamera = null, Vector3 offset = default(Vector3), Transform unitTransform = null)
