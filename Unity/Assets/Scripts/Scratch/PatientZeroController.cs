@@ -64,6 +64,10 @@ namespace Scratch
 
 		void ChooseWaypoint ()
 		{
+			if (waypoints.Length <= 2) {
+				return;
+			}
+
 			destinationWaypoint = waypoints [UnityEngine.Random.Range (0, waypoints.Length - 1)];
 			path = null;
 			currentDirection = Vector3.zero;
