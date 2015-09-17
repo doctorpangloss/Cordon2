@@ -9,8 +9,6 @@ namespace Scratch
 	public class SwipeController : NetworkBehaviour
 	{
 		[Header("Options")]
-		public int
-			minFramesDown = 5;
 		public float
 			minSwipeDistance = 5f;
 		public float tolerance = 0.906f;
@@ -27,7 +25,8 @@ namespace Scratch
 		public Vector2
 			touchDown;
 		public Vector2 swipe;
-		public int framesDown;
+		public bool prevFrameDown;
+		public float distanceTraveled;
 
 
 		// Use this for initialization
@@ -43,8 +42,8 @@ namespace Scratch
 			screenSpaceEast = screenSpaceEast.normalized;
 
 			// TODO: Put into editor
-			screenSpaceEast = (new Vector2(271.2969f, 344.0117f) - new Vector2(255.5f, 337.5195f)).normalized;
-			screenSpaceNorth = (new Vector2(272.5234f, 345.7578f) - new Vector2(285.5039f, 333.2734f)).normalized;
+			screenSpaceEast = (new Vector2 (271.2969f, 344.0117f) - new Vector2 (255.5f, 337.5195f)).normalized;
+			screenSpaceNorth = (new Vector2 (272.5234f, 345.7578f) - new Vector2 (285.5039f, 333.2734f)).normalized;
 		}
 
 
@@ -64,31 +63,24 @@ namespace Scratch
 
 				if (touch.phase == TouchPhase.Began) {
 					touchDown = touchPosition;
-					return;
-				}
-
-				if (touch.phase != TouchPhase.Ended) {
-					return;
 				}
 			} else {
 				var down = Input.GetMouseButton (0);
+
 				if (down) {
-					if (framesDown == 0) {
+					if (!prevFrameDown) {
+						prevFrameDown = true;
 						touchDown = Input.mousePosition;
 					}
-					framesDown++;
-					return;
-				} else if (!down && framesDown <= minFramesDown) {
-					framesDown = 0;
+					touchPosition = Input.mousePosition;
+				} else {
+					prevFrameDown = false;
 					return;
 				}
-				
-				touchPosition = Input.mousePosition;
-				framesDown = 0;
 			}
 
-			var swipe = touchPosition - touchDown;
-			var distanceTraveled = swipe.magnitude;
+			swipe = touchPosition - touchDown;
+			distanceTraveled = swipe.magnitude;
 
 			if (distanceTraveled < minSwipeDistance) {
 				return;
@@ -99,24 +91,28 @@ namespace Scratch
 			var northness = Vector2.Dot (swipe, screenSpaceNorth);
 			if (northness > tolerance) {
 				BroadcastMessage (swipeNorth);
+				touchDown = touchPosition;
 				return;
 			}
 
 			if (northness < -tolerance) {
 				// South
 				BroadcastMessage (swipeSouth);
+				touchDown = touchPosition;
 				return;
 			}
 
 			var eastness = Vector2.Dot (swipe, screenSpaceEast);
 			if (eastness > tolerance) {
 				BroadcastMessage (swipeEast);
+				touchDown = touchPosition;
 				return;
 			}
 
 			if (eastness < -tolerance) {
 				// West
 				BroadcastMessage (swipeWest);
+				touchDown = touchPosition;
 				return;
 			}
 		}

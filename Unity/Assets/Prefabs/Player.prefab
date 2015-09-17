@@ -1015,8 +1015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d799be36fca440a9b9d75737739d06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minFramesDown: 2
-  minSwipeDistance: 5
+  minSwipeDistance: 15
   tolerance: .800000012
   screenSpaceNorth: {x: 0, y: 1}
   screenSpaceEast: {x: 1, y: 0}
@@ -1027,7 +1026,8 @@ MonoBehaviour:
   swipeWest: SwipeWest
   touchDown: {x: 0, y: 0}
   swipe: {x: 0, y: 0}
-  framesDown: 0
+  prevFrameDown: 0
+  distanceTraveled: 0
 --- !u!114 &11433224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1761,6 +1761,10 @@ Prefab:
       propertyPath: moveController
       value: 
       objectReference: {fileID: 11475778}
+    - target: {fileID: 0}
+      propertyPath: minSwipeDistance
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 128258}
