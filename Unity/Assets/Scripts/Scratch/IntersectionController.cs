@@ -9,25 +9,36 @@ namespace Scratch
 	{
 		public Collider block;
 		public Collider trigger;
+		public GameObject fence;
 		// Use SyncVar to ensure that players who join late are given the correct blocking state
 		[SyncVar]
 		public bool
 			blocking;
 		public HashSet<IntersectionTriggerable> occupants = new HashSet<IntersectionTriggerable> ();
 
+		void Start ()
+		{
+			SetBlock (blocking);
+		}
 
 		// Update is called once per frame
 		void Update ()
 		{
 			if (block.enabled != blocking) {
-				// Happens on both the client and the server
-				block.enabled = blocking;
+				SetBlock (blocking);
+			}
+		}
 
-				if (isServer) {
-					AstarPath.active.Scan ();
-					if (PatientZeroController.instance != null) {
-						PatientZeroController.instance.WorldChanged (true);
-					}
+		void SetBlock (bool blocking)
+		{
+			// Happens on both the client and the server
+			block.enabled = blocking;
+			fence.SetActive (blocking);
+			
+			if (isServer) {
+				AstarPath.active.Scan ();
+				if (PatientZeroController.instance != null) {
+					PatientZeroController.instance.WorldChanged (true);
 				}
 			}
 		}
