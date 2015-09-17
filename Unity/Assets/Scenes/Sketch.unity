@@ -376,22 +376,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 128258, guid: 1e37a08b2b1744153bbc554e501e6b78, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11437182, guid: 1e37a08b2b1744153bbc554e501e6b78, type: 2}
-      propertyPath: color.r
-      value: .772058845
-      objectReference: {fileID: 0}
-    - target: {fileID: 11437182, guid: 1e37a08b2b1744153bbc554e501e6b78, type: 2}
-      propertyPath: color.g
-      value: .227076113
-      objectReference: {fileID: 0}
-    - target: {fileID: 11437182, guid: 1e37a08b2b1744153bbc554e501e6b78, type: 2}
-      propertyPath: color.b
-      value: .227076113
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e37a08b2b1744153bbc554e501e6b78, type: 2}
   m_IsPrefabParent: 0
@@ -12403,8 +12387,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 60, y: 98}
-  m_SizeDelta: {x: 100, y: 175}
+  m_AnchoredPosition: {x: 88, y: 150}
+  m_SizeDelta: {x: 160, y: 280}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1987976981
 MonoBehaviour:
