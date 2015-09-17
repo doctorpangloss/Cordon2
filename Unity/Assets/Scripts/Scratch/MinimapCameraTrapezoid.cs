@@ -9,17 +9,6 @@ public class MinimapCameraTrapezoid : UnityEngine.UI.Image
 	public Camera minimapCamera;
 	public RectTransform parentRectTransform;
 	public LayerMask groundLayer;
-//	public Vector3[] lvertices;
-
-	void Start ()
-	{
-
-	}
-
-	void Update ()
-	{
-		base.UpdateGeometry ();
-	}
 
 	Vector3[] points = new Vector3[] {
 		new Vector3 (0f, 0f, 0f),
@@ -27,6 +16,7 @@ public class MinimapCameraTrapezoid : UnityEngine.UI.Image
 		new Vector3 (1f, 1f, 0f),
 		new Vector3 (1f, 0f, 0f)
 	};
+
 	int[][] correspondences = new int[][] {
 		new int[] {0,1,2,3,4,7,12,13,16}, 
 		new int[] {5,6,8,9,10,11,17,20,21}, 
@@ -34,14 +24,17 @@ public class MinimapCameraTrapezoid : UnityEngine.UI.Image
 		new int[] {14,15,19,24,25,26,27,28,31}
 	};
 
+	void Update ()
+	{
+		base.UpdateGeometry ();
+	}
+
 	protected override void OnPopulateMesh (Mesh toFill)
 	{
 		base.OnPopulateMesh (toFill);
 
 		var rect = parentRectTransform.rect;
 		var vertices = toFill.vertices;
-		var width = rect.width;
-		var height = rect.height;
 		for (var i = 0; i < points.Length; i++) {
 			var point = points [i];
 			var ray = gameCamera.ViewportPointToRay (point);
@@ -64,7 +57,5 @@ public class MinimapCameraTrapezoid : UnityEngine.UI.Image
 		}
 
 		toFill.SetVertices (new List<Vector3>(vertices));
-//		lvertices = toFill.vertices;
-
 	}
 }

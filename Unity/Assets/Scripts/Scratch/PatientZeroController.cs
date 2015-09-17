@@ -15,9 +15,6 @@ namespace Scratch
 
 		public float speed = 8f;
 		public Transform[] waypoints;
-		[Tooltip("The AI will look for transforms with this tag to use as waypoints")]
-		public string
-			waypointTag;
 		public float minTimeOnDirection = 1f;
 		[Header("Runtime")]
 		public Transform
