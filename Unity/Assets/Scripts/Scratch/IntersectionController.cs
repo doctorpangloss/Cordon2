@@ -10,6 +10,7 @@ namespace Scratch
 		public Collider block;
 		public Collider trigger;
 		public GameObject fence;
+		public GameObject exitBlock;
 		// Use SyncVar to ensure that players who join late are given the correct blocking state
 		[SyncVar]
 		public bool
@@ -43,7 +44,11 @@ namespace Scratch
 			}
 		}
 
-		void OnTriggerEnter (Collider other)
+		/// <summary>
+		/// Handler for the entrance trigger. See the Trigger Redirector component on the Entrance Trigger object to see why this is called.
+		/// </summary>
+		/// <param name="other">Other.</param>
+		void OnEntranceTriggerEnter (Collider other)
 		{
 			var triggerable = other.gameObject.GetComponent<IntersectionTriggerable> ();
 			if (triggerable == null) {
@@ -57,7 +62,7 @@ namespace Scratch
 			}
 		}
 
-		void OnTriggerExit (Collider other)
+		void OnEntranceTriggerExit (Collider other)
 		{
 			var triggerable = other.gameObject.GetComponent<IntersectionTriggerable> ();
 			if (triggerable == null) {
