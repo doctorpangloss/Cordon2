@@ -4678,6 +4678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c048a4cb6c0d544dfac278c44a488f6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameController: {fileID: 504766102}
   blockPoints: 10000
   deathPoints: -8000
   timePoints: 1000

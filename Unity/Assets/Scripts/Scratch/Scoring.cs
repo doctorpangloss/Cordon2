@@ -7,6 +7,7 @@ namespace Scratch
 	public class Scoring : NetworkBehaviour
 	{
 		public static Scoring instance;
+		public GameController gameController;
 		[Header("Options")]
 		public float
 			blockPoints = 10000;
@@ -27,7 +28,7 @@ namespace Scratch
 
 		public int Score {
 			get {
-				return (int)Mathf.Floor (blockPoints * blocks + deathPoints * deaths + timePoints * (GameController.instance.maxSeconds - GameController.instance.seconds));
+				return (int)Mathf.Floor (blockPoints * blocks + deathPoints * deaths + timePoints * (gameController.maxSeconds - gameController.seconds));
 			} 
 		}
 	}
