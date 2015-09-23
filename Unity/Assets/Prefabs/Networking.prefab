@@ -73,7 +73,7 @@ MonoBehaviour:
   networkManagerHUD: {fileID: 11478526}
   lobbyManager: {fileID: 0}
   onMobile: 0
-  others: 0
+  others: 1
 --- !u!114 &11498716
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,6 +136,7 @@ MonoBehaviour:
   forceAutojoin: 0
   hasMatch: 0
   joining: 0
+  requestingMatch: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -13,18 +13,20 @@ namespace Scratch
 		public bool hasMatch = false;
 		JoinMatchResponse joinMatchResponse;
 		public bool joining = false;
+		public bool requestingMatch = false;
 
 		void Start ()
 		{
 			if (!Application.isEditor
 				|| forceAutojoin) {
 				StartMatchMaker ();
-				StartCoroutine(StartRequestMatch ());
+				StartCoroutine (StartRequestMatch ());
 			}
 		}
 
 		public override void OnMatchList (UnityEngine.Networking.Match.ListMatchResponse matchList)
 		{
+			requestingMatch = false;
 			base.OnMatchList (matchList);
 			Debug.Log ("Matches received.");
 
@@ -35,9 +37,10 @@ namespace Scratch
 				return;
 			}
 
-			if (!Application.isEditor ||
-				forceAutojoin) {
-				matchMaker.JoinMatch (matchList.matches [0].networkId, "", CustomOnMatchJoined);
+			if (!UnityEngine.Networking.NetworkServer.active
+				&& !Application.isEditor
+				|| forceAutojoin) {
+				matchMaker.JoinMatch (matchList.matches [matchList.matches.Count - 1].networkId, "", CustomOnMatchJoined);
 			}
 		}
 
@@ -83,7 +86,10 @@ namespace Scratch
 		{
 			yield return new WaitForSeconds (requestListTimeout);
 			Debug.Log ("Listing matches...");
-			matchMaker.ListMatches (0, 20, "", OnMatchList);
+			if (!requestingMatch) {
+				requestingMatch = true;
+				matchMaker.ListMatches (0, 20, "", OnMatchList);
+			}
 		}
 	}
 }
