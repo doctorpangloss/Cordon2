@@ -37,7 +37,7 @@ namespace Scratch
 			fence.SetActive (blocking);
 			
 			if (isServer) {
-				AstarPath.active.Scan ();
+				AstarPath.active.UpdateGraphs(block.bounds);
 				if (PatientZeroController.instance != null) {
 					PatientZeroController.instance.WorldChanged (true);
 				}
