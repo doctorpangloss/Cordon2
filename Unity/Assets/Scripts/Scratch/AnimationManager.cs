@@ -8,6 +8,7 @@ namespace Scratch
 		public string speedParameter;
 		public Animator animator;
 		public CharacterController controller;
+		public float speedScale = 1.0f;
 	
 		// Update is called once per frame
 		void LateUpdate ()
@@ -17,7 +18,7 @@ namespace Scratch
 				return;
 			}
 
-			animator.SetFloat (speedParameter, controller.velocity.magnitude);
+			animator.SetFloat (speedParameter, controller.velocity.magnitude * speedScale);
 		}
 	}
 }
