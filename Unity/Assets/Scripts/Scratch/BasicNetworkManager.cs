@@ -16,7 +16,6 @@ namespace Scratch
 
 		void Start ()
 		{
-			Debug.Log("test");
 			if (!Application.isEditor
 				|| forceAutojoin) {
 				StartMatchMaker ();

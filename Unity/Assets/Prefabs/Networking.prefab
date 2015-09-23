@@ -133,7 +133,7 @@ MonoBehaviour:
   matchName: default
   matchSize: 4
   requestListTimeout: 4
-  forceAutojoin: 1
+  forceAutojoin: 0
   hasMatch: 0
   joining: 0
 --- !u!1001 &100100000
