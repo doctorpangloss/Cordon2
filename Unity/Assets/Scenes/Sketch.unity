@@ -1065,6 +1065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 1962290530}
+  gameController: {fileID: 504766102}
 --- !u!1001 &96293094
 Prefab:
   m_ObjectHideFlags: 0
@@ -2943,6 +2944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463b8f7f04da24187839b39806ce241c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameController: {fileID: 504766102}
 --- !u!4 &300023092 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5370f88a07aca8a4da7f42470d54c2c7, type: 2}

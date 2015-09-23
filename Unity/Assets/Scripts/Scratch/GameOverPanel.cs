@@ -6,11 +6,11 @@ namespace Scratch
 	public class GameOverPanel : MonoBehaviour
 	{
 		public GameObject gameOverPanel;
-
+		public GameController gameController;
 		// Use this for initialization
 		void Start ()
 		{
-			GameController.instance.OnGameOver += OnGameOver;
+			gameController.OnGameOver += OnGameOver;
 		}
 	
 		// Update is called once per frame

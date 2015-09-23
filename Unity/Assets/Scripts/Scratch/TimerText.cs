@@ -5,6 +5,7 @@ namespace Scratch
 {
 	public class TimerText : MonoBehaviour
 	{
+		public GameController gameController;
 		UnityEngine.UI.Text text;
 		// Use this for initialization
 		void Start ()
@@ -15,7 +16,7 @@ namespace Scratch
 		// Update is called once per frame
 		void Update ()
 		{
-			text.text = GameController.instance.seconds.ToString ();
+			text.text = gameController.seconds.ToString ();
 		}
 	}
 }
