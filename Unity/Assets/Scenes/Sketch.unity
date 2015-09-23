@@ -4617,7 +4617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSeconds: 120
-  seconds: 0
+  seconds: 120
   gameOverMessage: 
   started: 0
   gameOver: 0
