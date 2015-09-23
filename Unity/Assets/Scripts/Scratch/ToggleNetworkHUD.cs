@@ -6,22 +6,41 @@ namespace Scratch
 	public class ToggleNetworkHUD : MonoBehaviour
 	{
 		public Behaviour networkManagerHUD;
+		public UnityEngine.Networking.NetworkLobbyManager lobbyManager;
 		[Header("HUD Starts Enabled")]
-		public bool onMobile = false;
+		public bool
+			onMobile = false;
 		public bool others = true;
 
 		void Start ()
 		{
+
 			if (Application.isMobilePlatform) {
-				networkManagerHUD.enabled = onMobile;
+				if (networkManagerHUD != null) {
+					networkManagerHUD.enabled = onMobile;
+				}
+				if (lobbyManager != null) {
+					lobbyManager.showLobbyGUI = onMobile;
+				}
 			} else {
-				networkManagerHUD.enabled = others;
+				if (networkManagerHUD != null) {
+					networkManagerHUD.enabled = others;
+				}
+				if (lobbyManager != null) {
+					lobbyManager.showLobbyGUI = others;
+				}
 			}
+			
 		}
 
 		public void Toggle ()
 		{
-			networkManagerHUD.enabled = !networkManagerHUD.enabled;
+			if (networkManagerHUD != null) {
+				networkManagerHUD.enabled = !networkManagerHUD.enabled;
+			}
+			if (lobbyManager != null) {
+				lobbyManager.showLobbyGUI = ! lobbyManager.showLobbyGUI;
+			}
 		}
 	}
 }
