@@ -2686,10 +2686,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 9.5
   waypoints: []
-  minTimeOnDirection: .200000003
+  minTimeOnDirection: .129999995
   destinationWaypoint: {fileID: 0}
   currentWaypointIndex: 0
-  nextWaypointDistance: 1
+  nextWaypointDistance: 2
   currentDirection: {x: 0, y: 0, z: 0}
   timeOnDirection: 0
 --- !u!114 &11447584

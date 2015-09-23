@@ -1057,13 +1057,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 128258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ed316bd5095543fbad2d5df8bbe89df, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e9cb8c6347274b259c59270aa54d8f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 1, g: 1, b: 1, a: 1}
   size: {x: 12, y: 12}
   channel: 0
-  uiIconOverride: {fileID: 0}
+  uiIconOverride: {fileID: 11431808, guid: 92dfab8422d104723bff14677e32983d, type: 2}
+  killIcon: {fileID: 11431808, guid: 558d1c2b23beb4484aa4294f63fa1e7c, type: 2}
 --- !u!114 &11458486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1123,7 +1124,7 @@ MonoBehaviour:
   triggerLayers:
     serializedVersion: 2
     m_Bits: 1024
-  brakingDistance: 4
+  brakingDistance: 1.5
   shouldStop: 0
   distanceTraveledSinceStop: 0
   lastPosition: {x: 0, y: 0, z: 0}
@@ -1781,6 +1782,20 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: minSwipeDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: uiIconOverride
+      value: 
+      objectReference: {fileID: 11431808, guid: 92dfab8422d104723bff14677e32983d,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: killIcon
+      value: 
+      objectReference: {fileID: 11431808, guid: 558d1c2b23beb4484aa4294f63fa1e7c,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: brakingDistance
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

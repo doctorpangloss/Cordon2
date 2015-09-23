@@ -13,22 +13,32 @@ public class MinimapUnit : MonoBehaviour
 	void Start ()
 	{
 		if (enabled) {
-			minimappables.Add (this);	
+			AddToMinimap ();
 		}
 	}
 
 	void OnDestroy ()
 	{
-		minimappables.Remove (this);
+		RemoveFromMinimap ();
 	}
 
 	void OnEnable ()
 	{
-		minimappables.Add (this);
+		AddToMinimap ();
 	}
 
 	void OnDisable ()
 	{
+		RemoveFromMinimap ();
+	}
+
+	protected void RemoveFromMinimap ()
+	{
 		minimappables.Remove (this);
+	}
+
+	protected void AddToMinimap ()
+	{
+		minimappables.Add (this);
 	}
 }
