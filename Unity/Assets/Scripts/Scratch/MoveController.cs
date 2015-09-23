@@ -27,7 +27,14 @@ namespace Scratch
 				return;
 			}
 
+			GameController.instance.OnGameOver += HandleOnGameOver;
+
 			controller = GetComponent<CharacterController> ();
+		}
+
+		void HandleOnGameOver ()
+		{
+			enabled = false;
 		}
 	
 		// Update is called once per frame

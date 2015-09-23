@@ -27,7 +27,7 @@ namespace Scratch
 
 		public int Score {
 			get {
-				return (int)Mathf.Floor (blockPoints * blocks + deathPoints * deaths + timePoints * GameController.instance.seconds);
+				return (int)Mathf.Floor (blockPoints * blocks + deathPoints * deaths + timePoints * (GameController.instance.maxSeconds - GameController.instance.seconds));
 			} 
 		}
 	}

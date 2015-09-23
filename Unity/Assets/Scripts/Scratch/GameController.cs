@@ -15,7 +15,9 @@ namespace Scratch
 		public float
 			seconds;
 		public string gameOverMessage;
-		public System.Action OnGameOver;
+		public bool started;
+		public bool gameOver;
+		public event System.Action OnGameOver;
 
 		void Awake ()
 		{
@@ -31,7 +33,8 @@ namespace Scratch
 		public override void OnStartServer ()
 		{
 			base.OnStartServer ();
-
+			started = true;
+			gameOver = false;
 			seconds = maxSeconds;
 			StartCoroutine (Tick (1f));
 		}
@@ -44,6 +47,7 @@ namespace Scratch
 			}
 
 			BroadcastMessage (gameOverMessage, SendMessageOptions.DontRequireReceiver);
+			gameOver = true;
 			if (OnGameOver != null) {
 				OnGameOver ();
 			}

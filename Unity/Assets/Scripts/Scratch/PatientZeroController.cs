@@ -16,6 +16,7 @@ namespace Scratch
 		public float speed = 8f;
 		public Transform[] waypoints;
 		public float minTimeOnDirection = 1f;
+		public float waypointChoosingDelay = 1f;
 		[Header("Runtime")]
 		public Transform
 			destinationWaypoint;
@@ -60,6 +61,13 @@ namespace Scratch
 			FindWaypoints ();
 
 			ChooseWaypoint ();
+
+			GameController.instance.OnGameOver += HandleOnGameOver;
+		}
+
+		void HandleOnGameOver ()
+		{
+			enabled = false;
 		}
 
 		void ChooseWaypoint ()
@@ -77,7 +85,7 @@ namespace Scratch
 
 		void FindWaypoints ()
 		{
-			waypoints = waypoints.Concat (GameObject.FindObjectsOfType<PatientZeroWaypoint>()
+			waypoints = waypoints.Concat (GameObject.FindObjectsOfType<PatientZeroWaypoint> ()
 				.Select<PatientZeroWaypoint, Transform> (go => go.transform))
 				.Distinct ()
 				.ToArray ();
@@ -86,12 +94,17 @@ namespace Scratch
 		void OnPathComplete (Path p)
 		{
 			if (p.error) {
-				Debug.LogError ("Path error!");
-				enabled = false;
+				StartCoroutine (DelayedChooseWaypoint ());
 				return;
 			}
 
 			path = p;
+		}
+
+		IEnumerator DelayedChooseWaypoint ()
+		{
+			yield return new WaitForSeconds (waypointChoosingDelay);
+			ChooseWaypoint ();
 		}
 
 		void FixedUpdate ()
