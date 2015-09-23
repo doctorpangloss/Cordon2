@@ -4116,6 +4116,8 @@ GameObject:
   - 114: {fileID: 504766105}
   - 114: {fileID: 504766104}
   - 114: {fileID: 504766106}
+  - 114: {fileID: 504766108}
+  - 114: {fileID: 504766107}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -4237,6 +4239,33 @@ MonoBehaviour:
   timePoints: 1000
   blocks: 0
   deaths: 0
+--- !u!114 &504766107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504766101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac4c30bb93d24e4996e175161cdbd11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkManagerHUD: {fileID: 504766104}
+  onMobile: 0
+  others: 1
+--- !u!114 &504766108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504766101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6420b78ecd1f045c78aba1dabe4ebb60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fingers: 3
+  tapMessage: Toggle
 --- !u!1001 &507870572
 Prefab:
   m_ObjectHideFlags: 0
