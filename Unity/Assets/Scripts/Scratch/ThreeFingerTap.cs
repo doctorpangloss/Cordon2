@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Linq;
 
 namespace Scratch
 {
@@ -12,10 +11,21 @@ namespace Scratch
 		// Update is called once per frame
 		void Update ()
 		{
-			if (Input.touchCount == fingers
-				&& Input.touches.Any (t => t.phase == TouchPhase.Began)) {
-				BroadcastMessage (tapMessage, fingers, SendMessageOptions.DontRequireReceiver);
+
+			if (Input.touchCount != fingers) {
+				return;
 			}
+			var touches = Input.touches;
+			var any = false;
+			for (var i = 0; i < touches.Length; i++) {
+				any = touches [i].phase == TouchPhase.Began;
+			}
+
+			if (!any) {
+				return;
+			}
+
+			BroadcastMessage (tapMessage, fingers, SendMessageOptions.DontRequireReceiver);
 		}
 	}
 }

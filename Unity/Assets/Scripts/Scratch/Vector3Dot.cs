@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 using Pathfinding;
-using System.Linq;
 
 namespace Scratch
 {
