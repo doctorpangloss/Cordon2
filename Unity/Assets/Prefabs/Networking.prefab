@@ -73,7 +73,7 @@ MonoBehaviour:
   networkManagerHUD: {fileID: 11478526}
   lobbyManager: {fileID: 0}
   onMobile: 0
-  others: 1
+  others: 0
 --- !u!114 &11498716
 MonoBehaviour:
   m_ObjectHideFlags: 1
