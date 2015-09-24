@@ -17,8 +17,8 @@ PlayerSettings:
   m_ShowUnitySplashScreen: 0
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 640
+  defaultScreenHeightWeb: 1136
   m_RenderingPath: 3
   m_MobileRenderingPath: 3
   m_ActiveColorSpace: 0
@@ -45,7 +45,7 @@ PlayerSettings:
   Prepare IOS For Recording: 0
   submitAnalytics: 1
   usePlayerLog: 1
-  bakeCollisionMeshes: 0
+  bakeCollisionMeshes: 1
   forceSingleInstance: 0
   resizableWindow: 0
   useMacAppStoreValidation: 0
@@ -106,8 +106,8 @@ PlayerSettings:
   ForceSDCardPermission: 0
   CreateWallpaper: 0
   APKExpansionFiles: 0
-  preloadShaders: 0
-  StripUnusedMeshComponents: 0
+  preloadShaders: 1
+  StripUnusedMeshComponents: 1
   VertexChannelCompressionMask:
     serializedVersion: 2
     m_Bits: 238
@@ -165,9 +165,12 @@ PlayerSettings:
     m_Icons:
     - m_Icon: {fileID: 2800000, guid: b8ebb32b884584d6c8ebd01769c782e0, type: 3}
       m_Size: 128
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: WebGL
+    m_StaticBatching: 1
+    m_DynamicBatching: 1
   m_BuildTargetGraphicsAPIs: []
-  webPlayerTemplate: APPLICATION:Default
+  webPlayerTemplate: APPLICATION:Black Background
   m_TemplateCustomTags: {}
   wiiUTitleID: 0005000011000000
   wiiUGroupID: 00010000
@@ -313,10 +316,11 @@ PlayerSettings:
   psmSplashimage: {fileID: 0}
   spritePackerPolicy: 
   scriptingDefineSymbols:
-    1: CROSS_PLATFORM_INPUT
-    2: CROSS_PLATFORM_INPUT
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    1: CROSS_PLATFORM_INPUT;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_NO_JSON;ASTAR_NO_ZIP
+    2: CROSS_PLATFORM_INPUT;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_NO_JSON;ASTAR_NO_ZIP
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_NO_JSON;ASTAR_NO_ZIP
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_NO_JSON;ASTAR_NO_ZIP
+    13: CROSS_PLATFORM_INPUT;MOBILE_INPUT;ASTAR_FAST_NO_EXCEPTIONS;ASTAR_NO_JSON;ASTAR_NO_ZIP;DOTNET2
     14: MOBILE_INPUT
     15: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     16: CROSS_PLATFORM_INPUT;MOBILE_INPUT

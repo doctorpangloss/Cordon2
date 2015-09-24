@@ -6,15 +6,17 @@ namespace Scratch
 	public class TriggerRedirector : MonoBehaviour
 	{
 		public GameObject target;
+		public string onTriggerEnterMessage = "OnTriggerEnter";
+		public string onTriggerExitMessage = "OnTriggerExit";
 
 		void OnTriggerEnter (Collider other)
 		{
-			target.SendMessage ("OnTriggerEnter", other, SendMessageOptions.RequireReceiver);
+			target.SendMessage (onTriggerEnterMessage, other, SendMessageOptions.RequireReceiver);
 		}
 
 		void OnTriggerExit (Collider other)
 		{
-			target.SendMessage ("OnTriggerExit", other, SendMessageOptions.RequireReceiver);
+			target.SendMessage (onTriggerExitMessage, other, SendMessageOptions.RequireReceiver);
 		}
 	}
 }

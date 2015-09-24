@@ -7,6 +7,7 @@ namespace Scratch
 	public class ScoreText : MonoBehaviour
 	{
 		Text text;
+		public Scoring scoring;
 
 		void Start ()
 		{
@@ -15,7 +16,7 @@ namespace Scratch
 		// Update is called once per frame
 		void Update ()
 		{
-			text.text = string.Format ("Score: {0}", Scoring.instance.Score);
+			text.text = string.Format ("Score: {0}", scoring.Score);
 		}
 	}
 }

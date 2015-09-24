@@ -13,7 +13,12 @@ namespace Scratch
 		[Header("Runtime")]
 		[SyncVar]
 		public float
-			gameStartTime;
+			seconds = 120f;
+		public string gameOverMessage;
+		public bool started;
+		public bool gameOver;
+
+		public event System.Action OnGameOver;
 
 		void Awake ()
 		{
@@ -24,18 +29,48 @@ namespace Scratch
 		void Start ()
 		{
 			Application.targetFrameRate = 60;
+			seconds = maxSeconds;
 		}
 
 		public override void OnStartServer ()
 		{
 			base.OnStartServer ();
-			// TODO: Synchronize time
-			gameStartTime = Time.time;
+			started = true;
+			gameOver = false;
+			seconds = maxSeconds;
+			StartCoroutine (Tick (1f));
 		}
 
-		void OnGUI ()
+		public override void OnStartClient ()
 		{
+			base.OnStartClient ();
+			if (seconds > 0) {
+				started = true;
+				gameOver = false;
+			} else {
+				started = true;
+				gameOver = false;
+			}
+		}
 
+		IEnumerator Tick (float tick)
+		{
+			while (seconds > 0) {
+				yield return new WaitForSeconds (tick);
+				seconds -= tick;
+			}
+		}
+
+		void Update ()
+		{
+			if (seconds <= 0
+				&& !gameOver) {
+				gameOver = true;
+				BroadcastMessage (gameOverMessage, SendMessageOptions.DontRequireReceiver);
+				if (OnGameOver != null) {
+					OnGameOver ();
+				}
+			}
 		}
 	}
 }

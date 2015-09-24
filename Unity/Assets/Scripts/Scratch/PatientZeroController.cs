@@ -2,7 +2,6 @@
 using UnityEngine.Networking;
 using System.Collections;
 using Pathfinding;
-using System.Linq;
 
 namespace Scratch
 {
@@ -16,6 +15,7 @@ namespace Scratch
 		public float speed = 8f;
 		public Transform[] waypoints;
 		public float minTimeOnDirection = 1f;
+		public float waypointChoosingDelay = 1f;
 		[Header("Runtime")]
 		public Transform
 			destinationWaypoint;
@@ -60,6 +60,13 @@ namespace Scratch
 			FindWaypoints ();
 
 			ChooseWaypoint ();
+
+			GameController.instance.OnGameOver += HandleOnGameOver;
+		}
+
+		void HandleOnGameOver ()
+		{
+			enabled = false;
 		}
 
 		void ChooseWaypoint ()
@@ -77,21 +84,27 @@ namespace Scratch
 
 		void FindWaypoints ()
 		{
-			waypoints = waypoints.Concat (GameObject.FindObjectsOfType<PatientZeroWaypoint>()
-				.Select<PatientZeroWaypoint, Transform> (go => go.transform))
-				.Distinct ()
-				.ToArray ();
+			var sceneWaypoints = GameObject.FindObjectsOfType<PatientZeroWaypoint> ();
+			waypoints = new Transform[sceneWaypoints.Length];
+			for (var i = 0; i < waypoints.Length; i++) {
+				waypoints [i] = sceneWaypoints [i].transform;
+			}
 		}
 
 		void OnPathComplete (Path p)
 		{
 			if (p.error) {
-				Debug.LogError ("Path error!");
-				enabled = false;
+				StartCoroutine (DelayedChooseWaypoint ());
 				return;
 			}
 
 			path = p;
+		}
+
+		IEnumerator DelayedChooseWaypoint ()
+		{
+			yield return new WaitForSeconds (waypointChoosingDelay);
+			ChooseWaypoint ();
 		}
 
 		void FixedUpdate ()
@@ -110,10 +123,20 @@ namespace Scratch
 			// Find the direction closest towards the next waypoint
 			var nextWaypoint = path.vectorPath [currentWaypointIndex];
 			var naturalDirection = (nextWaypoint - transform.position).normalized;
-			var cardinalDirection = cardinalDirections
-				.Select<Vector3, Vector3Dot> (_cardinalDirection => new Vector3Dot () {dot = Vector3.Dot(_cardinalDirection, naturalDirection), direction = _cardinalDirection})
-				.Max ()
-				.direction;
+			var maxCardinalDirection = new Vector3Dot();
+
+			for (var i = 0; i < cardinalDirections.Length; i++) {
+				var _cardinalDirection = cardinalDirections[i];
+				var temp = new Vector3Dot () {
+					dot = Vector3.Dot(_cardinalDirection, naturalDirection),
+					direction = _cardinalDirection
+				};
+				if (temp.dot > maxCardinalDirection.dot) {
+					maxCardinalDirection = temp;
+				}
+			}
+
+			var cardinalDirection = maxCardinalDirection.direction;
 
 			// Ensure that we don't zig zag really fast
 			if (currentDirection != cardinalDirection
