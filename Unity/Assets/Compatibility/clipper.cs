@@ -1677,9 +1677,7 @@ namespace Pathfinding.ClipperLib
 		private cInt PopScanbeam()
 		{
 			cInt Y = m_Scanbeam.Y;
-			Scanbeam sb2 = m_Scanbeam;
 			m_Scanbeam = m_Scanbeam.Next;
-			sb2 = null;
 			return Y;
 		}
 		//------------------------------------------------------------------------------
@@ -1702,13 +1700,10 @@ namespace Pathfinding.ClipperLib
 		private void DisposeOutPts(OutPt pp)
 		{
 			if (pp == null) return;
-			OutPt tmpPp = null;
 			pp.Prev.Next = null;
 			while (pp != null)
 			{
-				tmpPp = pp;
 				pp = pp.Next;
-				tmpPp = null;
 			}
 		}
 		//------------------------------------------------------------------------------
@@ -3666,11 +3661,9 @@ namespace Pathfinding.ClipperLib
 				 (!PreserveCollinear || !Pt2IsBetweenPt1AndPt3(pp.Prev.Pt, pp.Pt, pp.Next.Pt))))
 				{
 					lastOK = null;
-					OutPt tmp = pp;
 					pp.Prev.Next = pp.Next;
 					pp.Next.Prev = pp.Prev;
 					pp = pp.Prev;
-					tmp = null;
 				}
 				else if (pp == lastOK) break;
 				else
@@ -4283,7 +4276,6 @@ namespace Pathfinding.ClipperLib
 					if (delta < 0) m_sin = -m_sin;
 				}
 				
-				double deltaSq = delta * delta;
 				solution.Capacity = pts.Count;
 				for (m_i = 0; m_i < pts.Count; m_i++)
 				{

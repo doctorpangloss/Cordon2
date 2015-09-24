@@ -113,13 +113,12 @@ namespace Pathfinding.Poly2Tri {
 		/// If this is a Delaunay Triangulation of a pointset we need to fill so the triangle mesh gets a ConvexHull 
 		/// </summary>
 		private static void FinalizationConvexHull( DTSweepContext tcx ) {
-			AdvancingFrontNode n1, n2, n3;
+			AdvancingFrontNode n1, n2;
 			DelaunayTriangle t1;
 			TriangulationPoint first, p1;
 
 			n1 = tcx.Front.Head.Next;
 			n2 = n1.Next;
-			n3 = n2.Next;
 			first = n1.Point;
 
 			TurnAdvancingFrontConvex(tcx, n1, n2);
@@ -265,7 +264,7 @@ namespace Pathfinding.Poly2Tri {
 				FillEdgeEvent(tcx, edge, node);
 
 				EdgeEvent(tcx, edge.P, edge.Q, node.Triangle, edge.Q);
-			} catch ( PointOnEdgeException e) {
+			} catch {
 				//Debug.WriteLine( String.Format( "Warning: Skipping Edge: {0}", e.Message ) );
 				throw;
 			}
