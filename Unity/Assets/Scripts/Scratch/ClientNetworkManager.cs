@@ -6,10 +6,29 @@ using UnityEngine.Networking.Types;
 
 namespace Scratch
 {
-	public class BasicNetworkManager : NetworkManager
+	public class ClientNetworkManager : MonoBehaviour
 	{
+		public NetworkManager networkManager;
 		public float requestListTimeout = 4f;
 		public bool forceAutojoin = false;
+
+		public bool autojoin {
+			get {
+				if (forceAutojoin) {
+					return true;
+				}
+
+				foreach (var autojoinPlatform in autojoinPlatforms) {
+					if (autojoinPlatform == Application.platform) {
+						return true;
+					}
+				}
+
+				return false;
+			}
+		}
+
+		public RuntimePlatform[] autojoinPlatforms;
 		public bool hasMatch = false;
 		JoinMatchResponse joinMatchResponse;
 		public bool joining = false;
@@ -17,17 +36,16 @@ namespace Scratch
 
 		void Start ()
 		{
-			if (!Application.isEditor
-				|| forceAutojoin) {
-				StartMatchMaker ();
+			if (autojoin) {
+				networkManager.StartMatchMaker ();
 				StartCoroutine (StartRequestMatch ());
 			}
 		}
 
-		public override void OnMatchList (UnityEngine.Networking.Match.ListMatchResponse matchList)
+		void OnMatchList (UnityEngine.Networking.Match.ListMatchResponse matchList)
 		{
 			requestingMatch = false;
-			base.OnMatchList (matchList);
+			networkManager.OnMatchList (matchList);
 			Debug.Log ("Matches received.");
 
 			if (!matchList.success
@@ -39,9 +57,9 @@ namespace Scratch
 
 			if (!UnityEngine.Networking.NetworkServer.active
 				&& !Application.isEditor
-				|| forceAutojoin) {
+				|| autojoin) {
 				// Connect to a random match!
-				matchMaker.JoinMatch (matchList.matches [UnityEngine.Random.Range(0,matchList.matches.Count - 1)].networkId, "", CustomOnMatchJoined);
+				networkManager.matchMaker.JoinMatch (matchList.matches [UnityEngine.Random.Range (0, matchList.matches.Count - 1)].networkId, "", CustomOnMatchJoined);
 			}
 		}
 
@@ -64,22 +82,22 @@ namespace Scratch
 
 		public void StartGame ()
 		{
-			this.StartClient (new MatchInfo (joinMatchResponse));
+			networkManager.StartClient (new MatchInfo (joinMatchResponse));
 		}
 
 		/// <summary>
 		/// This is really raised when the player has joined
 		/// </summary>
 		/// <param name="conn">Conn.</param>
-		public override void OnClientConnect (NetworkConnection conn)
+		void OnClientConnect (NetworkConnection conn)
 		{
-			base.OnClientConnect (conn);
+			networkManager.OnClientConnect (conn);
 			joining = false;
 		}
 
-		public override void OnStartClient (NetworkClient client)
+		void OnStartClient (NetworkClient client)
 		{
-			base.OnStartClient (client);
+			networkManager.OnStartClient (client);
 			joining = true;
 		}
 
@@ -89,7 +107,7 @@ namespace Scratch
 			Debug.Log ("Listing matches...");
 			if (!requestingMatch) {
 				requestingMatch = true;
-				matchMaker.ListMatches (0, 20, "", OnMatchList);
+				networkManager.matchMaker.ListMatches (0, 20, "", OnMatchList);
 			}
 		}
 	}

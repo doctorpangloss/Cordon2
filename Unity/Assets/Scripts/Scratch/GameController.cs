@@ -17,6 +17,7 @@ namespace Scratch
 		public string gameOverMessage;
 		public bool started;
 		public bool gameOver;
+		public bool autostart = false;
 
 		public event System.Action OnGameOver;
 
@@ -35,6 +36,13 @@ namespace Scratch
 		public override void OnStartServer ()
 		{
 			base.OnStartServer ();
+			if (autostart) {
+				StartGame ();
+			}
+		}
+
+		public void StartGame ()
+		{
 			started = true;
 			gameOver = false;
 			seconds = maxSeconds;

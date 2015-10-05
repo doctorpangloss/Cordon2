@@ -32,6 +32,7 @@ public class MinimapCameraTrapezoid : UnityEngine.UI.Image
 	protected override void OnPopulateMesh (Mesh toFill)
 	{
 		base.OnPopulateMesh (toFill);
+		Debug.Log("Populating mesh?");
 
 		var rect = parentRectTransform.rect;
 		var vertices = toFill.vertices;

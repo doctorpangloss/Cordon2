@@ -1,11 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 namespace Scratch
 {
 	public class JoiningPanel : MonoBehaviour
 	{
-		public BasicNetworkManager basicNetworkManager;
+		public ClientNetworkManager basicNetworkManager;
 		public GameObject panel;
 		bool previousJoining = false;
 		// Use this for initialization
