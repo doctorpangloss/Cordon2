@@ -40,7 +40,8 @@ namespace Scratch
 			if (!UnityEngine.Networking.NetworkServer.active
 				&& !Application.isEditor
 				|| forceAutojoin) {
-				matchMaker.JoinMatch (matchList.matches [matchList.matches.Count - 1].networkId, "", CustomOnMatchJoined);
+				// Connect to a random match!
+				matchMaker.JoinMatch (matchList.matches [UnityEngine.Random.Range(0,matchList.matches.Count - 1)].networkId, "", CustomOnMatchJoined);
 			}
 		}
 
