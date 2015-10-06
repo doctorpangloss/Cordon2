@@ -8,18 +8,21 @@ namespace Scratch
 	public class ConstructableIntersection : NetworkBehaviour
 	{
 		[Header("Options")]
-		public float constructionCost = 10f;
+		public float
+			constructionCost = 10f;
 		public float constructionRate = 1f;
 		public float constructionTickRate = 0.5f;
 		public float depletionRate = 0.5f;
 		public Collider block;
-
 		[Header("Animation")]
-		public GameObject fallingBricks;
+		public GameObject
+			fallingBricks;
 		public Animator fallingBricksAnimator;
-		public string fallingBricksAnimationTrigger = "falling_t";
+		public float fallingBricksAnimationLength = 83.45f;
+		public string fallingBricksAnimationBool = "falling_b";
 		public string fallingBricksAnimationSpeedParameter = "speed_f";
-		public int fallingBricksAnimationFrames = 5008;
+		public string fallingBricksAnimationFrozenBool = "frozen_b";
+		public string fallingBricksAnimationState = "Falling";
 
 		// Use SyncVar to ensure that players who join late are given the correct blocking state
 		[Header("Runtime")]
@@ -30,15 +33,13 @@ namespace Scratch
 		public float
 			accumulatedConstruction;
 		public HashSet<IntersectionTriggerable> constructions = new HashSet<IntersectionTriggerable> ();
-
 		GameController gameController;
 
 		void Start ()
 		{
 			gameController = GameController.instance;
+			HandleDidGameStart ();
 			SetBlock (blocking);
-
-			gameController.DidGameStart += HandleDidGameStart;
 		}
 
 		void HandleDidGameStart ()
@@ -50,21 +51,20 @@ namespace Scratch
 
 		IEnumerator TickConstruction ()
 		{
-			while (enabled
-			       && !gameController.gameOver) {
+			while (enabled) {
 				yield return new WaitForSeconds (constructionTickRate);
 
+				if (gameController.gameOver) {
+					continue;
+				}
+
 				if (constructions.Count > 0) {
-					var addition = 0f;
-
-					foreach (var triggerable in constructions) {
-						addition += constructionRate * constructionTickRate;
-					}
-
-					accumulatedConstruction = Mathf.Clamp (0f, constructionCost, accumulatedConstruction + addition);
-				} else {
+					var addition = constructionRate * constructionTickRate * constructions.Count;
+					accumulatedConstruction = Mathf.Clamp (accumulatedConstruction + addition, 0f, constructionCost);
+				} else if (constructions.Count == 0
+					&& !blocking) {
 					// Unattended constructions deplete
-					accumulatedConstruction = Mathf.Clamp (0f, constructionCost, accumulatedConstruction - depletionRate * constructionTickRate);
+					accumulatedConstruction = Mathf.Clamp (accumulatedConstruction - depletionRate * constructionTickRate, 0f, constructionCost);
 				}
 			}
 		}
@@ -72,6 +72,9 @@ namespace Scratch
 		// Update is called once per frame
 		void Update ()
 		{
+			// Animation
+			SetAnimationStates ();
+			UpdateAnimationSpeed ();
 			// Should we construct the block
 			if (isServer
 				&& !blocking
@@ -84,24 +87,68 @@ namespace Scratch
 				SetBlock (blocking);
 			}
 		}
+
+		void SetAnimationStates ()
+		{
+			var fallingBricksActive = accumulatedConstruction > 0f;
+			fallingBricks.SetActive (fallingBricksActive);
+			if (fallingBricksActive) {
+				fallingBricksAnimator.SetBool (fallingBricksAnimationFrozenBool, blocking);
+				fallingBricksAnimator.SetBool (fallingBricksAnimationBool, constructions.Count > 0);
+			}
+
+		}
 	
-		void UpdateAnimationSpeed()
+		void UpdateAnimationSpeed ()
 		{
 			// Using the amount of time left and the current rate of construction, calculate what speed to set for the animation
 			if (fallingBricksAnimator == null) {
 				return;
 			}
 
-			// How fast are we building?
-			var rateOfConstruction = constructions.Count * constructionRate * Time.deltaTime;
-			// How much construction is remaining?
-			var constructionRemaining = constructionCost - accumulatedConstruction;
+			if (!fallingBricks.activeInHierarchy) {
+				return;
+			}
+
+			// If we're in the middle of construction, pause the animation
+			if (constructions.Count == 0) {
+				fallingBricksAnimator.SetFloat (fallingBricksAnimationSpeedParameter, 0f);
+				// TODO: Hide / unhide bricks that have not yet deployed.
+				return;
+			}
+
+			if (accumulatedConstruction >= constructionCost) {
+				return;
+			}
+
 			// How much animation is remaining?
-			var normalizedTime = fallingBricksAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime;
-			var remainingNormalized = 1 - (normalizedTime - Mathf.Floor(normalizedTime));
 
+			var state = fallingBricksAnimator.GetCurrentAnimatorStateInfo (0);
 
-			var seconds = (constructionCost - accumulatedConstruction) / rateOfConstruction;
+			if (!state.IsName (fallingBricksAnimationState)
+				&& constructions.Count > 0
+				&& accumulatedConstruction < constructionCost) {
+				return;
+			}
+
+			var realSecondsLength = fallingBricksAnimationLength;
+			var rateOfConstruction = constructions.Count * constructionRate;
+			if (rateOfConstruction == 0) {
+				return;
+			}
+
+			// How much construction is remaining?
+			var normalizedTime = state.normalizedTime;
+
+			var remainingNormalized = 1 - (normalizedTime - Mathf.Floor (normalizedTime));
+
+			// What speed do we need to set the animation in order to finish the construction at the right time?
+			var animationSecondsRemaining = remainingNormalized * realSecondsLength;
+			var constructionSecondsRemaining = (constructionCost - accumulatedConstruction) / rateOfConstruction;
+
+			// Calculate a new speed. We want the number of real seconds remaining to equal the construction seconds remaining
+			var newSpeed = Mathf.Clamp (rateOfConstruction * (animationSecondsRemaining / constructionSecondsRemaining), 0, 120f);
+			fallingBricksAnimator.SetFloat (fallingBricksAnimationSpeedParameter, newSpeed);
 		}
 
 		void SetBlock (bool blocking)
@@ -127,7 +174,6 @@ namespace Scratch
 			if (triggerable == null) {
 				return;
 			}
-		
 			constructions.Add (triggerable);
 		}
 	
@@ -137,7 +183,6 @@ namespace Scratch
 			if (triggerable == null) {
 				return;
 			}
-		
 			constructions.Remove (triggerable);
 		}
 	}

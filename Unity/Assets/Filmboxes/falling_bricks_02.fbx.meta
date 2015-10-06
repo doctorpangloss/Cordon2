@@ -3835,6 +3835,7 @@ ModelImporter:
     4301090: nurbsCircle5
     7400000: Falling
     7400002: Stationary
+    7400004: Floating
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -4985,6 +4986,1130 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 5007
       lastFrame: 5008
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/largeBrick
+        weight: 1
+      - path: nurbsCircle1/largeBrick1
+        weight: 1
+      - path: nurbsCircle1/largeBrick2
+        weight: 1
+      - path: nurbsCircle1/largeBrick3
+        weight: 1
+      - path: nurbsCircle1/largeBrick4
+        weight: 1
+      - path: nurbsCircle1/largeBrick5
+        weight: 1
+      - path: nurbsCircle1/largeBrick6
+        weight: 1
+      - path: nurbsCircle1/largeBrick7
+        weight: 1
+      - path: nurbsCircle1/largeBrick8
+        weight: 1
+      - path: nurbsCircle1/largeBrick9
+        weight: 1
+      - path: nurbsCircle1/largeBrick10
+        weight: 1
+      - path: nurbsCircle1/largeBrick11
+        weight: 1
+      - path: nurbsCircle1/largeBrick12
+        weight: 1
+      - path: nurbsCircle1/largeBrick13
+        weight: 1
+      - path: nurbsCircle1/largeBrick14
+        weight: 1
+      - path: nurbsCircle1/largeBrick15
+        weight: 1
+      - path: nurbsCircle1/largeBrick16
+        weight: 1
+      - path: nurbsCircle1/largeBrick17
+        weight: 1
+      - path: nurbsCircle1/largeBrick18
+        weight: 1
+      - path: nurbsCircle1/largeBrick19
+        weight: 1
+      - path: nurbsCircle1/largeBrick20
+        weight: 1
+      - path: nurbsCircle1/largeBrick21
+        weight: 1
+      - path: nurbsCircle1/largeBrick22
+        weight: 1
+      - path: nurbsCircle1/largeBrick23
+        weight: 1
+      - path: nurbsCircle1/largeBrick24
+        weight: 1
+      - path: nurbsCircle1/largeBrick25
+        weight: 1
+      - path: nurbsCircle1/largeBrick26
+        weight: 1
+      - path: nurbsCircle1/largeBrick27
+        weight: 1
+      - path: nurbsCircle1/largeBrick28
+        weight: 1
+      - path: nurbsCircle1/largeBrick29
+        weight: 1
+      - path: nurbsCircle1/largeBrick30
+        weight: 1
+      - path: nurbsCircle1/largeBrick31
+        weight: 1
+      - path: nurbsCircle1/largeBrick32
+        weight: 1
+      - path: nurbsCircle1/largeBrick33
+        weight: 1
+      - path: nurbsCircle1/largeBrick34
+        weight: 1
+      - path: nurbsCircle1/largeBrick35
+        weight: 1
+      - path: nurbsCircle1/largeBrick36
+        weight: 1
+      - path: nurbsCircle1/largeBrick37
+        weight: 1
+      - path: nurbsCircle1/largeBrick38
+        weight: 1
+      - path: nurbsCircle1/largeBrick39
+        weight: 1
+      - path: nurbsCircle1/largeBrick40
+        weight: 1
+      - path: nurbsCircle1/largeBrick41
+        weight: 1
+      - path: nurbsCircle1/largeBrick42
+        weight: 1
+      - path: nurbsCircle1/largeBrick43
+        weight: 1
+      - path: nurbsCircle1/largeBrick44
+        weight: 1
+      - path: nurbsCircle1/largeBrick45
+        weight: 1
+      - path: nurbsCircle1/largeBrick46
+        weight: 1
+      - path: nurbsCircle1/largeBrick47
+        weight: 1
+      - path: nurbsCircle1/largeBrick48
+        weight: 1
+      - path: nurbsCircle1/largeBrick49
+        weight: 1
+      - path: nurbsCircle1/largeBrick50
+        weight: 1
+      - path: nurbsCircle1/largeBrick51
+        weight: 1
+      - path: nurbsCircle1/largeBrick52
+        weight: 1
+      - path: nurbsCircle1/largeBrick53
+        weight: 1
+      - path: nurbsCircle1/largeBrick54
+        weight: 1
+      - path: nurbsCircle1/largeBrick55
+        weight: 1
+      - path: nurbsCircle1/largeBrick56
+        weight: 1
+      - path: nurbsCircle1/largeBrick57
+        weight: 1
+      - path: nurbsCircle1/largeBrick58
+        weight: 1
+      - path: nurbsCircle1/largeBrick59
+        weight: 1
+      - path: nurbsCircle1/largeBrick60
+        weight: 1
+      - path: nurbsCircle1/largeBrick61
+        weight: 1
+      - path: nurbsCircle1/largeBrick62
+        weight: 1
+      - path: nurbsCircle1/largeBrick63
+        weight: 1
+      - path: nurbsCircle1/largeBrick64
+        weight: 1
+      - path: nurbsCircle1/largeBrick65
+        weight: 1
+      - path: nurbsCircle1/largeBrick66
+        weight: 1
+      - path: nurbsCircle1/largeBrick67
+        weight: 1
+      - path: nurbsCircle1/largeBrick68
+        weight: 1
+      - path: nurbsCircle1/largeBrick69
+        weight: 1
+      - path: nurbsCircle1/largeBrick70
+        weight: 1
+      - path: nurbsCircle1/largeBrick71
+        weight: 1
+      - path: nurbsCircle1/largeBrick72
+        weight: 1
+      - path: nurbsCircle1/largeBrick73
+        weight: 1
+      - path: nurbsCircle1/largeBrick74
+        weight: 1
+      - path: nurbsCircle1/largeBrick75
+        weight: 1
+      - path: nurbsCircle1/largeBrick76
+        weight: 1
+      - path: nurbsCircle1/largeBrick77
+        weight: 1
+      - path: nurbsCircle1/largeBrick78
+        weight: 1
+      - path: nurbsCircle1/largeBrick79
+        weight: 1
+      - path: nurbsCircle1/largeBrick80
+        weight: 1
+      - path: nurbsCircle1/largeBrick81
+        weight: 1
+      - path: nurbsCircle1/largeBrick82
+        weight: 1
+      - path: nurbsCircle1/largeBrick83
+        weight: 1
+      - path: nurbsCircle1/largeBrick84
+        weight: 1
+      - path: nurbsCircle1/largeBrick85
+        weight: 1
+      - path: nurbsCircle1/largeBrick86
+        weight: 1
+      - path: nurbsCircle1/largeBrick87
+        weight: 1
+      - path: nurbsCircle1/largeBrick88
+        weight: 1
+      - path: nurbsCircle1/largeBrick89
+        weight: 1
+      - path: nurbsCircle1/largeBrick90
+        weight: 1
+      - path: nurbsCircle1/largeBrick91
+        weight: 1
+      - path: nurbsCircle1/largeBrick92
+        weight: 1
+      - path: nurbsCircle1/largeBrick93
+        weight: 1
+      - path: nurbsCircle1/largeBrick94
+        weight: 1
+      - path: nurbsCircle1/largeBrick95
+        weight: 1
+      - path: nurbsCircle1/largeBrick96
+        weight: 1
+      - path: nurbsCircle1/largeBrick97
+        weight: 1
+      - path: nurbsCircle1/largeBrick98
+        weight: 1
+      - path: nurbsCircle1/largeBrick99
+        weight: 1
+      - path: nurbsCircle1/largeBrick100
+        weight: 1
+      - path: nurbsCircle1/largeBrick101
+        weight: 1
+      - path: nurbsCircle1/largeBrick102
+        weight: 1
+      - path: nurbsCircle1/largeBrick103
+        weight: 1
+      - path: nurbsCircle1/largeBrick104
+        weight: 1
+      - path: nurbsCircle1/largeBrick105
+        weight: 1
+      - path: nurbsCircle1/largeBrick106
+        weight: 1
+      - path: nurbsCircle1/largeBrick107
+        weight: 1
+      - path: nurbsCircle1/largeBrick108
+        weight: 1
+      - path: nurbsCircle1/largeBrick109
+        weight: 1
+      - path: nurbsCircle1/largeBrick110
+        weight: 1
+      - path: nurbsCircle1/largeBrick111
+        weight: 1
+      - path: nurbsCircle1/largeBrick112
+        weight: 1
+      - path: nurbsCircle1/largeBrick113
+        weight: 1
+      - path: nurbsCircle1/largeBrick114
+        weight: 1
+      - path: nurbsCircle1/largeBrick115
+        weight: 1
+      - path: nurbsCircle1/largeBrick116
+        weight: 1
+      - path: nurbsCircle1/largeBrick117
+        weight: 1
+      - path: nurbsCircle1/largeBrick118
+        weight: 1
+      - path: nurbsCircle1/largeBrick119
+        weight: 1
+      - path: nurbsCircle1/smallBrick
+        weight: 1
+      - path: nurbsCircle1/smallBrick1
+        weight: 1
+      - path: nurbsCircle1/smallBrick2
+        weight: 1
+      - path: nurbsCircle1/smallBrick3
+        weight: 1
+      - path: nurbsCircle1/smallBrick4
+        weight: 1
+      - path: nurbsCircle1/smallBrick5
+        weight: 1
+      - path: nurbsCircle1/smallBrick6
+        weight: 1
+      - path: nurbsCircle1/smallBrick7
+        weight: 1
+      - path: nurbsCircle1/smallBrick8
+        weight: 1
+      - path: nurbsCircle1/smallBrick9
+        weight: 1
+      - path: nurbsCircle1/smallBrick10
+        weight: 1
+      - path: nurbsCircle1/smallBrick11
+        weight: 1
+      - path: nurbsCircle1/smallBrick12
+        weight: 1
+      - path: nurbsCircle1/smallBrick13
+        weight: 1
+      - path: nurbsCircle1/smallBrick14
+        weight: 1
+      - path: nurbsCircle1/smallBrick15
+        weight: 1
+      - path: nurbsCircle2
+        weight: 1
+      - path: nurbsCircle2/largeBrick 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick1 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick2 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick3 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick4 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick5 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick6 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick7 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick8 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick9 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick10 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick11 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick12 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick13 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick14 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick15 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick16 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick17 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick18 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick19 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick20 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick21 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick22 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick23 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick24 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick25 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick26 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick27 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick28 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick29 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick30 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick31 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick32 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick33 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick34 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick35 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick36 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick37 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick38 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick39 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick40 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick41 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick42 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick43 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick44 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick45 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick46 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick47 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick48 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick49 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick50 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick51 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick52 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick53 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick54 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick55 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick56 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick57 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick58 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick59 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick60 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick61 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick62 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick63 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick64 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick65 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick66 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick67 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick68 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick69 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick70 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick71 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick72 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick73 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick74 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick75 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick76 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick77 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick78 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick79 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick80 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick81 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick82 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick83 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick84 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick85 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick86 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick87 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick88 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick89 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick90 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick91 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick92 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick93 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick94 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick95 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick96 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick97 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick98 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick99 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick100 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick101 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick102 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick103 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick104 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick105 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick106 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick107 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick108 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick109 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick110 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick111 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick112 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick113 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick114 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick115 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick116 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick117 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick118 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick119 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick1 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick2 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick3 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick4 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick5 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick6 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick7 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick8 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick9 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick10 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick11 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick12 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick13 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick14 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick15 1
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: nurbsCircle3/largeBrick 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick1 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick2 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick3 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick4 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick5 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick6 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick7 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick8 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick9 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick10 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick11 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick12 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick13 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick14 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick15 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick16 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick17 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick18 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick19 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick20 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick21 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick22 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick23 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick24 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick25 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick26 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick27 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick28 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick29 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick30 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick31 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick32 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick33 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick34 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick35 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick36 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick37 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick38 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick39 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick40 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick41 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick42 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick43 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick44 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick45 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick46 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick47 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick48 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick49 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick50 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick51 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick52 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick53 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick54 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick55 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick56 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick57 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick58 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick59 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick60 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick61 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick62 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick63 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick64 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick65 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick66 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick67 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick68 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick69 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick70 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick71 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick72 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick73 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick74 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick75 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick76 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick77 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick78 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick79 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick80 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick81 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick82 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick83 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick84 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick85 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick86 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick87 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick88 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick89 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick90 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick91 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick92 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick93 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick94 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick95 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick96 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick97 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick98 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick99 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick100 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick101 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick102 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick103 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick104 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick105 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick106 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick107 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick108 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick109 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick110 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick111 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick112 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick113 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick114 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick115 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick116 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick117 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick118 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick119 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick1 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick2 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick3 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick4 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick5 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick6 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick7 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick8 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick9 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick10 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick11 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick12 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick13 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick14 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick15 2
+        weight: 1
+      - path: nurbsCircle4
+        weight: 1
+      - path: nurbsCircle4/largeBrick 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick1 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick2 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick3 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick4 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick5 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick6 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick7 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick8 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick9 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick10 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick11 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick12 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick13 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick14 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick15 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick16 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick17 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick18 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick19 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick20 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick21 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick22 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick23 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick24 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick25 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick26 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick27 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick28 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick29 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick30 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick31 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick32 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick33 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick34 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick35 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick36 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick37 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick38 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick39 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick40 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick41 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick42 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick43 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick44 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick45 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick46 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick47 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick48 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick49 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick50 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick51 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick52 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick53 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick54 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick55 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick56 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick57 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick58 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick59 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick60 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick61 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick62 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick63 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick64 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick65 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick66 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick67 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick68 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick69 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick70 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick71 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick72 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick73 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick74 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick75 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick76 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick77 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick78 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick79 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick80 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick81 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick82 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick83 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick84 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick85 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick86 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick87 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick88 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick89 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick90 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick91 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick92 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick93 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick94 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick95 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick96 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick97 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick98 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick99 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick100 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick101 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick102 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick103 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick104 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick105 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick106 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick107 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick108 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick109 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick110 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick111 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick112 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick113 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick114 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick115 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick116 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick117 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick118 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick119 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick1 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick2 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick3 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick4 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick5 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick6 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick7 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick8 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick9 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick10 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick11 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick12 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick13 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick14 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick15 3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Floating
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
