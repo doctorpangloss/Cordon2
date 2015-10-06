@@ -5540,6 +5540,7 @@ MonoBehaviour:
   gameOverMessage: 
   started: 0
   gameOver: 0
+  autostart: 0
 --- !u!4 &504766103
 Transform:
   m_ObjectHideFlags: 0
@@ -12455,7 +12456,6 @@ GameObject:
   - 20: {fileID: 1087177017}
   - 92: {fileID: 1087177016}
   - 124: {fileID: 1087177015}
-  - 81: {fileID: 1087177014}
   - 114: {fileID: 1087177021}
   - 114: {fileID: 1087177020}
   - 114: {fileID: 1087177022}
@@ -12469,13 +12469,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1087177014
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1087177013}
-  m_Enabled: 1
 --- !u!124 &1087177015
 Behaviour:
   m_ObjectHideFlags: 0
