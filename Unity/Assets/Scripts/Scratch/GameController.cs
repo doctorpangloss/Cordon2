@@ -18,8 +18,10 @@ namespace Scratch
 		public bool started;
 		public bool gameOver;
 		public bool autostart = false;
+		float startTime;
 
-		public event System.Action OnGameOver;
+		public event System.Action DidGameOver;
+		public event System.Action DidGameStart;
 
 		void Awake ()
 		{
@@ -46,7 +48,17 @@ namespace Scratch
 			started = true;
 			gameOver = false;
 			seconds = maxSeconds;
+			startTime = Time.time;
 			StartCoroutine (Tick (1f));
+			if (DidGameStart != null) {
+				DidGameStart ();
+			}
+		}
+
+		public float elapsedTime {
+			get {
+				return Time.time - startTime;
+			}
 		}
 
 		public override void OnStartClient ()
@@ -75,8 +87,8 @@ namespace Scratch
 				&& !gameOver) {
 				gameOver = true;
 				BroadcastMessage (gameOverMessage, SendMessageOptions.DontRequireReceiver);
-				if (OnGameOver != null) {
-					OnGameOver ();
+				if (DidGameOver != null) {
+					DidGameOver ();
 				}
 			}
 		}
