@@ -737,6 +737,68 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   startPoint: {x: 0, y: 0, z: 0}
   endPoint: {x: 0, y: 0, z: 0}
+  turbulenceY:
+    serializedVersion: 2
+    m_Curve:
+    - time: -.0109196026
+      value: -.160978436
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .221701667
+      value: .221229851
+      inSlope: .705420971
+      outSlope: .705420971
+      tangentMode: 0
+    - time: .514512777
+      value: -.123457283
+      inSlope: .433325768
+      outSlope: .433325768
+      tangentMode: 0
+    - time: .795545518
+      value: .0877236724
+      inSlope: 1.56849623
+      outSlope: 1.56849623
+      tangentMode: 0
+    - time: 1.03116798
+      value: -.0723534897
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 0
+  turbulenceX:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .00452437997
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .147804007
+      value: .101725727
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .434436202
+      value: -.172570586
+      inSlope: -.147819519
+      outSlope: -.147819519
+      tangentMode: 0
+    - time: .744304061
+      value: .0949110687
+      inSlope: .504553318
+      outSlope: .504553318
+      tangentMode: 0
+    - time: 1
+      value: .00452437997
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 0
+  xScale: 1
+  yScale: 1
 --- !u!114 &11469846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -827,7 +889,147 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[0].time
+      value: -.0109196026
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[0].value
+      value: -.160978436
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[0].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[1].time
+      value: .221701667
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[1].value
+      value: .221229851
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[1].inSlope
+      value: .705420971
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[1].outSlope
+      value: .705420971
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[2].time
+      value: .514512777
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[2].value
+      value: -.123457283
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[2].inSlope
+      value: .433325768
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[2].outSlope
+      value: .433325768
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[3].time
+      value: .795545518
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[3].value
+      value: .0877236724
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[3].inSlope
+      value: 1.56849623
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[3].outSlope
+      value: 1.56849623
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[4].time
+      value: 1.03116798
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_Curve.Array.data[4].value
+      value: -.0723534897
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceY.m_PostInfinity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[0].value
+      value: .00452437997
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[1].value
+      value: .101725727
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[1].time
+      value: .147804007
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[2].time
+      value: .434436202
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[2].value
+      value: -.172570586
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[2].inSlope
+      value: -.147819519
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[2].outSlope
+      value: -.147819519
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[3].time
+      value: .744304061
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[3].value
+      value: .0949110687
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[3].inSlope
+      value: .504553318
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[3].outSlope
+      value: .504553318
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_Curve.Array.data[4].value
+      value: .00452437997
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: turbulenceX.m_PostInfinity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: xScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: yScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 152220}
