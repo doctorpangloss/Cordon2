@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -6,7 +6,7 @@ namespace Scratch
 {
 	public class IntroPanel : MonoBehaviour
 	{
-		public BasicNetworkManager basicNetworkManager;
+		public ClientNetworkManager basicNetworkManager;
 		public Text buttonLabel;
 		public string hasMatchText;
 		public string noMatchText;
