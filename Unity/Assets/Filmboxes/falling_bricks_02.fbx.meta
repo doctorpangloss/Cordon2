@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 798b7ffc0afdc412b8b0e3bfc9c28799
-timeCreated: 1444156021
+timeCreated: 1444179457
 licenseType: Pro
 ModelImporter:
   serializedVersion: 18
@@ -490,616 +490,70 @@ ModelImporter:
     100964: nurbsCircle2
     100966: nurbsCircle3
     100968: nurbsCircle4
-    100970: pPlane1
-    100972: smallBrick
-    100974: smallBrick 1
-    100976: smallBrick 2
-    100978: smallBrick 3
-    100980: smallBrick1
-    100982: smallBrick1 1
-    100984: smallBrick1 2
-    100986: smallBrick1 3
-    100988: smallBrick10
-    100990: smallBrick10 1
-    100992: smallBrick10 2
-    100994: smallBrick10 3
-    100996: smallBrick11
-    100998: smallBrick11 1
-    101000: smallBrick11 2
-    101002: smallBrick11 3
-    101004: smallBrick12
-    101006: smallBrick12 1
-    101008: smallBrick12 2
-    101010: smallBrick12 3
-    101012: smallBrick13
-    101014: smallBrick13 1
-    101016: smallBrick13 2
-    101018: smallBrick13 3
-    101020: smallBrick14
-    101022: smallBrick14 1
-    101024: smallBrick14 2
-    101026: smallBrick14 3
-    101028: smallBrick15
-    101030: smallBrick15 1
-    101032: smallBrick15 2
-    101034: smallBrick15 3
-    101036: smallBrick2
-    101038: smallBrick2 1
-    101040: smallBrick2 2
-    101042: smallBrick2 3
-    101044: smallBrick3
-    101046: smallBrick3 1
-    101048: smallBrick3 2
-    101050: smallBrick3 3
-    101052: smallBrick4
-    101054: smallBrick4 1
-    101056: smallBrick4 2
-    101058: smallBrick4 3
-    101060: smallBrick5
-    101062: smallBrick5 1
-    101064: smallBrick5 2
-    101066: smallBrick5 3
-    101068: smallBrick6
-    101070: smallBrick6 1
-    101072: smallBrick6 2
-    101074: smallBrick6 3
-    101076: smallBrick7
-    101078: smallBrick7 1
-    101080: smallBrick7 2
-    101082: smallBrick7 3
-    101084: smallBrick8
-    101086: smallBrick8 1
-    101088: smallBrick8 2
-    101090: smallBrick8 3
-    101092: smallBrick9
-    101094: smallBrick9 1
-    101096: smallBrick9 2
-    101098: smallBrick9 3
-    101100: nurbsCircle5
-    101102: transform1
-    101104: transform10
-    101106: transform100
-    101108: transform101
-    101110: transform102
-    101112: transform103
-    101114: transform104
-    101116: transform105
-    101118: transform106
-    101120: transform107
-    101122: transform108
-    101124: transform109
-    101126: transform11
-    101128: transform110
-    101130: transform111
-    101132: transform112
-    101134: transform113
-    101136: transform114
-    101138: transform115
-    101140: transform116
-    101142: transform117
-    101144: transform118
-    101146: transform119
-    101148: transform12
-    101150: transform120
-    101152: transform121
-    101154: transform122
-    101156: transform123
-    101158: transform124
-    101160: transform125
-    101162: transform126
-    101164: transform127
-    101166: transform128
-    101168: transform129
-    101170: transform13
-    101172: transform130
-    101174: transform131
-    101176: transform132
-    101178: transform133
-    101180: transform134
-    101182: transform135
-    101184: transform136
-    101186: transform137
-    101188: transform138
-    101190: transform139
-    101192: transform14
-    101194: transform140
-    101196: transform141
-    101198: transform142
-    101200: transform143
-    101202: transform144
-    101204: transform145
-    101206: transform146
-    101208: transform147
-    101210: transform148
-    101212: transform149
-    101214: transform15
-    101216: transform150
-    101218: transform151
-    101220: transform152
-    101222: transform153
-    101224: transform154
-    101226: transform155
-    101228: transform156
-    101230: transform157
-    101232: transform158
-    101234: transform159
-    101236: transform16
-    101238: transform160
-    101240: transform161
-    101242: transform162
-    101244: transform163
-    101246: transform164
-    101248: transform165
-    101250: transform166
-    101252: transform167
-    101254: transform168
-    101256: transform169
-    101258: transform17
-    101260: transform170
-    101262: transform171
-    101264: transform172
-    101266: transform173
-    101268: transform174
-    101270: transform175
-    101272: transform176
-    101274: transform177
-    101276: transform178
-    101278: transform179
-    101280: transform18
-    101282: transform180
-    101284: transform181
-    101286: transform182
-    101288: transform183
-    101290: transform184
-    101292: transform185
-    101294: transform186
-    101296: transform187
-    101298: transform188
-    101300: transform189
-    101302: transform19
-    101304: transform190
-    101306: transform191
-    101308: transform192
-    101310: transform193
-    101312: transform194
-    101314: transform195
-    101316: transform196
-    101318: transform197
-    101320: transform198
-    101322: transform199
-    101324: transform2
-    101326: transform20
-    101328: transform200
-    101330: transform201
-    101332: transform202
-    101334: transform203
-    101336: transform204
-    101338: transform205
-    101340: transform206
-    101342: transform207
-    101344: transform208
-    101346: transform209
-    101348: transform21
-    101350: transform210
-    101352: transform211
-    101354: transform212
-    101356: transform213
-    101358: transform214
-    101360: transform215
-    101362: transform216
-    101364: transform217
-    101366: transform218
-    101368: transform219
-    101370: transform22
-    101372: transform220
-    101374: transform221
-    101376: transform222
-    101378: transform223
-    101380: transform224
-    101382: transform225
-    101384: transform226
-    101386: transform227
-    101388: transform228
-    101390: transform229
-    101392: transform23
-    101394: transform230
-    101396: transform231
-    101398: transform232
-    101400: transform233
-    101402: transform234
-    101404: transform235
-    101406: transform236
-    101408: transform237
-    101410: transform238
-    101412: transform239
-    101414: transform24
-    101416: transform240
-    101418: transform241
-    101420: transform242
-    101422: transform243
-    101424: transform244
-    101426: transform245
-    101428: transform246
-    101430: transform247
-    101432: transform248
-    101434: transform249
-    101436: transform25
-    101438: transform250
-    101440: transform251
-    101442: transform252
-    101444: transform253
-    101446: transform254
-    101448: transform255
-    101450: transform256
-    101452: transform257
-    101454: transform258
-    101456: transform259
-    101458: transform26
-    101460: transform260
-    101462: transform261
-    101464: transform262
-    101466: transform263
-    101468: transform264
-    101470: transform265
-    101472: transform266
-    101474: transform267
-    101476: transform268
-    101478: transform269
-    101480: transform27
-    101482: transform270
-    101484: transform271
-    101486: transform272
-    101488: transform273
-    101490: transform274
-    101492: transform275
-    101494: transform276
-    101496: transform277
-    101498: transform278
-    101500: transform279
-    101502: transform28
-    101504: transform280
-    101506: transform281
-    101508: transform282
-    101510: transform283
-    101512: transform284
-    101514: transform285
-    101516: transform286
-    101518: transform287
-    101520: transform288
-    101522: transform289
-    101524: transform29
-    101526: transform290
-    101528: transform291
-    101530: transform292
-    101532: transform293
-    101534: transform294
-    101536: transform295
-    101538: transform296
-    101540: transform297
-    101542: transform298
-    101544: transform299
-    101546: transform3
-    101548: transform30
-    101550: transform300
-    101552: transform301
-    101554: transform302
-    101556: transform303
-    101558: transform304
-    101560: transform305
-    101562: transform306
-    101564: transform307
-    101566: transform308
-    101568: transform309
-    101570: transform31
-    101572: transform310
-    101574: transform311
-    101576: transform312
-    101578: transform313
-    101580: transform314
-    101582: transform315
-    101584: transform316
-    101586: transform317
-    101588: transform318
-    101590: transform319
-    101592: transform32
-    101594: transform320
-    101596: transform321
-    101598: transform322
-    101600: transform323
-    101602: transform324
-    101604: transform325
-    101606: transform326
-    101608: transform327
-    101610: transform328
-    101612: transform329
-    101614: transform33
-    101616: transform330
-    101618: transform331
-    101620: transform332
-    101622: transform333
-    101624: transform334
-    101626: transform335
-    101628: transform336
-    101630: transform337
-    101632: transform338
-    101634: transform339
-    101636: transform34
-    101638: transform340
-    101640: transform341
-    101642: transform342
-    101644: transform343
-    101646: transform344
-    101648: transform345
-    101650: transform346
-    101652: transform347
-    101654: transform348
-    101656: transform349
-    101658: transform35
-    101660: transform350
-    101662: transform351
-    101664: transform352
-    101666: transform353
-    101668: transform354
-    101670: transform355
-    101672: transform356
-    101674: transform357
-    101676: transform358
-    101678: transform359
-    101680: transform36
-    101682: transform360
-    101684: transform361
-    101686: transform362
-    101688: transform363
-    101690: transform364
-    101692: transform365
-    101694: transform366
-    101696: transform367
-    101698: transform368
-    101700: transform369
-    101702: transform37
-    101704: transform370
-    101706: transform371
-    101708: transform372
-    101710: transform373
-    101712: transform374
-    101714: transform375
-    101716: transform376
-    101718: transform377
-    101720: transform378
-    101722: transform379
-    101724: transform38
-    101726: transform380
-    101728: transform381
-    101730: transform382
-    101732: transform383
-    101734: transform384
-    101736: transform385
-    101738: transform386
-    101740: transform387
-    101742: transform388
-    101744: transform389
-    101746: transform39
-    101748: transform390
-    101750: transform391
-    101752: transform392
-    101754: transform393
-    101756: transform394
-    101758: transform395
-    101760: transform396
-    101762: transform397
-    101764: transform398
-    101766: transform399
-    101768: transform4
-    101770: transform40
-    101772: transform400
-    101774: transform401
-    101776: transform402
-    101778: transform403
-    101780: transform404
-    101782: transform405
-    101784: transform406
-    101786: transform407
-    101788: transform408
-    101790: transform409
-    101792: transform41
-    101794: transform410
-    101796: transform411
-    101798: transform412
-    101800: transform413
-    101802: transform414
-    101804: transform415
-    101806: transform416
-    101808: transform417
-    101810: transform418
-    101812: transform419
-    101814: transform42
-    101816: transform420
-    101818: transform421
-    101820: transform422
-    101822: transform423
-    101824: transform424
-    101826: transform425
-    101828: transform426
-    101830: transform427
-    101832: transform428
-    101834: transform429
-    101836: transform43
-    101838: transform430
-    101840: transform431
-    101842: transform432
-    101844: transform433
-    101846: transform434
-    101848: transform435
-    101850: transform436
-    101852: transform437
-    101854: transform438
-    101856: transform439
-    101858: transform44
-    101860: transform440
-    101862: transform441
-    101864: transform442
-    101866: transform443
-    101868: transform444
-    101870: transform445
-    101872: transform446
-    101874: transform447
-    101876: transform448
-    101878: transform449
-    101880: transform45
-    101882: transform450
-    101884: transform451
-    101886: transform452
-    101888: transform453
-    101890: transform454
-    101892: transform455
-    101894: transform456
-    101896: transform457
-    101898: transform458
-    101900: transform459
-    101902: transform46
-    101904: transform460
-    101906: transform461
-    101908: transform462
-    101910: transform463
-    101912: transform464
-    101914: transform465
-    101916: transform466
-    101918: transform467
-    101920: transform468
-    101922: transform469
-    101924: transform47
-    101926: transform470
-    101928: transform471
-    101930: transform472
-    101932: transform473
-    101934: transform474
-    101936: transform475
-    101938: transform476
-    101940: transform477
-    101942: transform478
-    101944: transform479
-    101946: transform48
-    101948: transform480
-    101950: transform481
-    101952: transform482
-    101954: transform483
-    101956: transform484
-    101958: transform485
-    101960: transform486
-    101962: transform487
-    101964: transform488
-    101966: transform489
-    101968: transform49
-    101970: transform490
-    101972: transform491
-    101974: transform492
-    101976: transform493
-    101978: transform494
-    101980: transform495
-    101982: transform496
-    101984: transform497
-    101986: transform498
-    101988: transform499
-    101990: transform5
-    101992: transform50
-    101994: transform500
-    101996: transform501
-    101998: transform502
-    102000: transform503
-    102002: transform504
-    102004: transform505
-    102006: transform506
-    102008: transform507
-    102010: transform508
-    102012: transform509
-    102014: transform51
-    102016: transform510
-    102018: transform511
-    102020: transform512
-    102022: transform513
-    102024: transform514
-    102026: transform515
-    102028: transform516
-    102030: transform517
-    102032: transform518
-    102034: transform519
-    102036: transform52
-    102038: transform520
-    102040: transform521
-    102042: transform522
-    102044: transform523
-    102046: transform524
-    102048: transform525
-    102050: transform526
-    102052: transform527
-    102054: transform528
-    102056: transform529
-    102058: transform53
-    102060: transform530
-    102062: transform531
-    102064: transform532
-    102066: transform533
-    102068: transform534
-    102070: transform535
-    102072: transform536
-    102074: transform537
-    102076: transform538
-    102078: transform539
-    102080: transform54
-    102082: transform540
-    102084: transform541
-    102086: transform542
-    102088: transform543
-    102090: transform544
-    102092: transform55
-    102094: transform56
-    102096: transform57
-    102098: transform58
-    102100: transform59
-    102102: transform6
-    102104: transform60
-    102106: transform61
-    102108: transform62
-    102110: transform63
-    102112: transform64
-    102114: transform65
-    102116: transform66
-    102118: transform67
-    102120: transform68
-    102122: transform69
-    102124: transform7
-    102126: transform70
-    102128: transform71
-    102130: transform72
-    102132: transform73
-    102134: transform74
-    102136: transform75
-    102138: transform76
-    102140: transform77
-    102142: transform78
-    102144: transform79
-    102146: transform8
-    102148: transform80
-    102150: transform81
-    102152: transform82
-    102154: transform83
-    102156: transform84
-    102158: transform85
-    102160: transform86
-    102162: transform87
-    102164: transform88
-    102166: transform89
-    102168: transform9
-    102170: transform90
-    102172: transform91
-    102174: transform92
-    102176: transform93
-    102178: transform94
-    102180: transform95
-    102182: transform96
-    102184: transform97
-    102186: transform98
-    102188: transform99
+    100970: smallBrick
+    100972: smallBrick 1
+    100974: smallBrick 2
+    100976: smallBrick 3
+    100978: smallBrick1
+    100980: smallBrick1 1
+    100982: smallBrick1 2
+    100984: smallBrick1 3
+    100986: smallBrick10
+    100988: smallBrick10 1
+    100990: smallBrick10 2
+    100992: smallBrick10 3
+    100994: smallBrick11
+    100996: smallBrick11 1
+    100998: smallBrick11 2
+    101000: smallBrick11 3
+    101002: smallBrick12
+    101004: smallBrick12 1
+    101006: smallBrick12 2
+    101008: smallBrick12 3
+    101010: smallBrick13
+    101012: smallBrick13 1
+    101014: smallBrick13 2
+    101016: smallBrick13 3
+    101018: smallBrick14
+    101020: smallBrick14 1
+    101022: smallBrick14 2
+    101024: smallBrick14 3
+    101026: smallBrick15
+    101028: smallBrick15 1
+    101030: smallBrick15 2
+    101032: smallBrick15 3
+    101034: smallBrick2
+    101036: smallBrick2 1
+    101038: smallBrick2 2
+    101040: smallBrick2 3
+    101042: smallBrick3
+    101044: smallBrick3 1
+    101046: smallBrick3 2
+    101048: smallBrick3 3
+    101050: smallBrick4
+    101052: smallBrick4 1
+    101054: smallBrick4 2
+    101056: smallBrick4 3
+    101058: smallBrick5
+    101060: smallBrick5 1
+    101062: smallBrick5 2
+    101064: smallBrick5 3
+    101066: smallBrick6
+    101068: smallBrick6 1
+    101070: smallBrick6 2
+    101072: smallBrick6 3
+    101074: smallBrick7
+    101076: smallBrick7 1
+    101078: smallBrick7 2
+    101080: smallBrick7 3
+    101082: smallBrick8
+    101084: smallBrick8 1
+    101086: smallBrick8 2
+    101088: smallBrick8 3
+    101090: smallBrick9
+    101092: smallBrick9 1
+    101094: smallBrick9 2
+    101096: smallBrick9 3
     400000: //RootNode
     400002: largeBrick
     400004: largeBrick 1
@@ -1585,616 +1039,70 @@ ModelImporter:
     400964: nurbsCircle2
     400966: nurbsCircle3
     400968: nurbsCircle4
-    400970: pPlane1
-    400972: smallBrick
-    400974: smallBrick 1
-    400976: smallBrick 2
-    400978: smallBrick 3
-    400980: smallBrick1
-    400982: smallBrick1 1
-    400984: smallBrick1 2
-    400986: smallBrick1 3
-    400988: smallBrick10
-    400990: smallBrick10 1
-    400992: smallBrick10 2
-    400994: smallBrick10 3
-    400996: smallBrick11
-    400998: smallBrick11 1
-    401000: smallBrick11 2
-    401002: smallBrick11 3
-    401004: smallBrick12
-    401006: smallBrick12 1
-    401008: smallBrick12 2
-    401010: smallBrick12 3
-    401012: smallBrick13
-    401014: smallBrick13 1
-    401016: smallBrick13 2
-    401018: smallBrick13 3
-    401020: smallBrick14
-    401022: smallBrick14 1
-    401024: smallBrick14 2
-    401026: smallBrick14 3
-    401028: smallBrick15
-    401030: smallBrick15 1
-    401032: smallBrick15 2
-    401034: smallBrick15 3
-    401036: smallBrick2
-    401038: smallBrick2 1
-    401040: smallBrick2 2
-    401042: smallBrick2 3
-    401044: smallBrick3
-    401046: smallBrick3 1
-    401048: smallBrick3 2
-    401050: smallBrick3 3
-    401052: smallBrick4
-    401054: smallBrick4 1
-    401056: smallBrick4 2
-    401058: smallBrick4 3
-    401060: smallBrick5
-    401062: smallBrick5 1
-    401064: smallBrick5 2
-    401066: smallBrick5 3
-    401068: smallBrick6
-    401070: smallBrick6 1
-    401072: smallBrick6 2
-    401074: smallBrick6 3
-    401076: smallBrick7
-    401078: smallBrick7 1
-    401080: smallBrick7 2
-    401082: smallBrick7 3
-    401084: smallBrick8
-    401086: smallBrick8 1
-    401088: smallBrick8 2
-    401090: smallBrick8 3
-    401092: smallBrick9
-    401094: smallBrick9 1
-    401096: smallBrick9 2
-    401098: smallBrick9 3
-    401100: nurbsCircle5
-    401102: transform1
-    401104: transform10
-    401106: transform100
-    401108: transform101
-    401110: transform102
-    401112: transform103
-    401114: transform104
-    401116: transform105
-    401118: transform106
-    401120: transform107
-    401122: transform108
-    401124: transform109
-    401126: transform11
-    401128: transform110
-    401130: transform111
-    401132: transform112
-    401134: transform113
-    401136: transform114
-    401138: transform115
-    401140: transform116
-    401142: transform117
-    401144: transform118
-    401146: transform119
-    401148: transform12
-    401150: transform120
-    401152: transform121
-    401154: transform122
-    401156: transform123
-    401158: transform124
-    401160: transform125
-    401162: transform126
-    401164: transform127
-    401166: transform128
-    401168: transform129
-    401170: transform13
-    401172: transform130
-    401174: transform131
-    401176: transform132
-    401178: transform133
-    401180: transform134
-    401182: transform135
-    401184: transform136
-    401186: transform137
-    401188: transform138
-    401190: transform139
-    401192: transform14
-    401194: transform140
-    401196: transform141
-    401198: transform142
-    401200: transform143
-    401202: transform144
-    401204: transform145
-    401206: transform146
-    401208: transform147
-    401210: transform148
-    401212: transform149
-    401214: transform15
-    401216: transform150
-    401218: transform151
-    401220: transform152
-    401222: transform153
-    401224: transform154
-    401226: transform155
-    401228: transform156
-    401230: transform157
-    401232: transform158
-    401234: transform159
-    401236: transform16
-    401238: transform160
-    401240: transform161
-    401242: transform162
-    401244: transform163
-    401246: transform164
-    401248: transform165
-    401250: transform166
-    401252: transform167
-    401254: transform168
-    401256: transform169
-    401258: transform17
-    401260: transform170
-    401262: transform171
-    401264: transform172
-    401266: transform173
-    401268: transform174
-    401270: transform175
-    401272: transform176
-    401274: transform177
-    401276: transform178
-    401278: transform179
-    401280: transform18
-    401282: transform180
-    401284: transform181
-    401286: transform182
-    401288: transform183
-    401290: transform184
-    401292: transform185
-    401294: transform186
-    401296: transform187
-    401298: transform188
-    401300: transform189
-    401302: transform19
-    401304: transform190
-    401306: transform191
-    401308: transform192
-    401310: transform193
-    401312: transform194
-    401314: transform195
-    401316: transform196
-    401318: transform197
-    401320: transform198
-    401322: transform199
-    401324: transform2
-    401326: transform20
-    401328: transform200
-    401330: transform201
-    401332: transform202
-    401334: transform203
-    401336: transform204
-    401338: transform205
-    401340: transform206
-    401342: transform207
-    401344: transform208
-    401346: transform209
-    401348: transform21
-    401350: transform210
-    401352: transform211
-    401354: transform212
-    401356: transform213
-    401358: transform214
-    401360: transform215
-    401362: transform216
-    401364: transform217
-    401366: transform218
-    401368: transform219
-    401370: transform22
-    401372: transform220
-    401374: transform221
-    401376: transform222
-    401378: transform223
-    401380: transform224
-    401382: transform225
-    401384: transform226
-    401386: transform227
-    401388: transform228
-    401390: transform229
-    401392: transform23
-    401394: transform230
-    401396: transform231
-    401398: transform232
-    401400: transform233
-    401402: transform234
-    401404: transform235
-    401406: transform236
-    401408: transform237
-    401410: transform238
-    401412: transform239
-    401414: transform24
-    401416: transform240
-    401418: transform241
-    401420: transform242
-    401422: transform243
-    401424: transform244
-    401426: transform245
-    401428: transform246
-    401430: transform247
-    401432: transform248
-    401434: transform249
-    401436: transform25
-    401438: transform250
-    401440: transform251
-    401442: transform252
-    401444: transform253
-    401446: transform254
-    401448: transform255
-    401450: transform256
-    401452: transform257
-    401454: transform258
-    401456: transform259
-    401458: transform26
-    401460: transform260
-    401462: transform261
-    401464: transform262
-    401466: transform263
-    401468: transform264
-    401470: transform265
-    401472: transform266
-    401474: transform267
-    401476: transform268
-    401478: transform269
-    401480: transform27
-    401482: transform270
-    401484: transform271
-    401486: transform272
-    401488: transform273
-    401490: transform274
-    401492: transform275
-    401494: transform276
-    401496: transform277
-    401498: transform278
-    401500: transform279
-    401502: transform28
-    401504: transform280
-    401506: transform281
-    401508: transform282
-    401510: transform283
-    401512: transform284
-    401514: transform285
-    401516: transform286
-    401518: transform287
-    401520: transform288
-    401522: transform289
-    401524: transform29
-    401526: transform290
-    401528: transform291
-    401530: transform292
-    401532: transform293
-    401534: transform294
-    401536: transform295
-    401538: transform296
-    401540: transform297
-    401542: transform298
-    401544: transform299
-    401546: transform3
-    401548: transform30
-    401550: transform300
-    401552: transform301
-    401554: transform302
-    401556: transform303
-    401558: transform304
-    401560: transform305
-    401562: transform306
-    401564: transform307
-    401566: transform308
-    401568: transform309
-    401570: transform31
-    401572: transform310
-    401574: transform311
-    401576: transform312
-    401578: transform313
-    401580: transform314
-    401582: transform315
-    401584: transform316
-    401586: transform317
-    401588: transform318
-    401590: transform319
-    401592: transform32
-    401594: transform320
-    401596: transform321
-    401598: transform322
-    401600: transform323
-    401602: transform324
-    401604: transform325
-    401606: transform326
-    401608: transform327
-    401610: transform328
-    401612: transform329
-    401614: transform33
-    401616: transform330
-    401618: transform331
-    401620: transform332
-    401622: transform333
-    401624: transform334
-    401626: transform335
-    401628: transform336
-    401630: transform337
-    401632: transform338
-    401634: transform339
-    401636: transform34
-    401638: transform340
-    401640: transform341
-    401642: transform342
-    401644: transform343
-    401646: transform344
-    401648: transform345
-    401650: transform346
-    401652: transform347
-    401654: transform348
-    401656: transform349
-    401658: transform35
-    401660: transform350
-    401662: transform351
-    401664: transform352
-    401666: transform353
-    401668: transform354
-    401670: transform355
-    401672: transform356
-    401674: transform357
-    401676: transform358
-    401678: transform359
-    401680: transform36
-    401682: transform360
-    401684: transform361
-    401686: transform362
-    401688: transform363
-    401690: transform364
-    401692: transform365
-    401694: transform366
-    401696: transform367
-    401698: transform368
-    401700: transform369
-    401702: transform37
-    401704: transform370
-    401706: transform371
-    401708: transform372
-    401710: transform373
-    401712: transform374
-    401714: transform375
-    401716: transform376
-    401718: transform377
-    401720: transform378
-    401722: transform379
-    401724: transform38
-    401726: transform380
-    401728: transform381
-    401730: transform382
-    401732: transform383
-    401734: transform384
-    401736: transform385
-    401738: transform386
-    401740: transform387
-    401742: transform388
-    401744: transform389
-    401746: transform39
-    401748: transform390
-    401750: transform391
-    401752: transform392
-    401754: transform393
-    401756: transform394
-    401758: transform395
-    401760: transform396
-    401762: transform397
-    401764: transform398
-    401766: transform399
-    401768: transform4
-    401770: transform40
-    401772: transform400
-    401774: transform401
-    401776: transform402
-    401778: transform403
-    401780: transform404
-    401782: transform405
-    401784: transform406
-    401786: transform407
-    401788: transform408
-    401790: transform409
-    401792: transform41
-    401794: transform410
-    401796: transform411
-    401798: transform412
-    401800: transform413
-    401802: transform414
-    401804: transform415
-    401806: transform416
-    401808: transform417
-    401810: transform418
-    401812: transform419
-    401814: transform42
-    401816: transform420
-    401818: transform421
-    401820: transform422
-    401822: transform423
-    401824: transform424
-    401826: transform425
-    401828: transform426
-    401830: transform427
-    401832: transform428
-    401834: transform429
-    401836: transform43
-    401838: transform430
-    401840: transform431
-    401842: transform432
-    401844: transform433
-    401846: transform434
-    401848: transform435
-    401850: transform436
-    401852: transform437
-    401854: transform438
-    401856: transform439
-    401858: transform44
-    401860: transform440
-    401862: transform441
-    401864: transform442
-    401866: transform443
-    401868: transform444
-    401870: transform445
-    401872: transform446
-    401874: transform447
-    401876: transform448
-    401878: transform449
-    401880: transform45
-    401882: transform450
-    401884: transform451
-    401886: transform452
-    401888: transform453
-    401890: transform454
-    401892: transform455
-    401894: transform456
-    401896: transform457
-    401898: transform458
-    401900: transform459
-    401902: transform46
-    401904: transform460
-    401906: transform461
-    401908: transform462
-    401910: transform463
-    401912: transform464
-    401914: transform465
-    401916: transform466
-    401918: transform467
-    401920: transform468
-    401922: transform469
-    401924: transform47
-    401926: transform470
-    401928: transform471
-    401930: transform472
-    401932: transform473
-    401934: transform474
-    401936: transform475
-    401938: transform476
-    401940: transform477
-    401942: transform478
-    401944: transform479
-    401946: transform48
-    401948: transform480
-    401950: transform481
-    401952: transform482
-    401954: transform483
-    401956: transform484
-    401958: transform485
-    401960: transform486
-    401962: transform487
-    401964: transform488
-    401966: transform489
-    401968: transform49
-    401970: transform490
-    401972: transform491
-    401974: transform492
-    401976: transform493
-    401978: transform494
-    401980: transform495
-    401982: transform496
-    401984: transform497
-    401986: transform498
-    401988: transform499
-    401990: transform5
-    401992: transform50
-    401994: transform500
-    401996: transform501
-    401998: transform502
-    402000: transform503
-    402002: transform504
-    402004: transform505
-    402006: transform506
-    402008: transform507
-    402010: transform508
-    402012: transform509
-    402014: transform51
-    402016: transform510
-    402018: transform511
-    402020: transform512
-    402022: transform513
-    402024: transform514
-    402026: transform515
-    402028: transform516
-    402030: transform517
-    402032: transform518
-    402034: transform519
-    402036: transform52
-    402038: transform520
-    402040: transform521
-    402042: transform522
-    402044: transform523
-    402046: transform524
-    402048: transform525
-    402050: transform526
-    402052: transform527
-    402054: transform528
-    402056: transform529
-    402058: transform53
-    402060: transform530
-    402062: transform531
-    402064: transform532
-    402066: transform533
-    402068: transform534
-    402070: transform535
-    402072: transform536
-    402074: transform537
-    402076: transform538
-    402078: transform539
-    402080: transform54
-    402082: transform540
-    402084: transform541
-    402086: transform542
-    402088: transform543
-    402090: transform544
-    402092: transform55
-    402094: transform56
-    402096: transform57
-    402098: transform58
-    402100: transform59
-    402102: transform6
-    402104: transform60
-    402106: transform61
-    402108: transform62
-    402110: transform63
-    402112: transform64
-    402114: transform65
-    402116: transform66
-    402118: transform67
-    402120: transform68
-    402122: transform69
-    402124: transform7
-    402126: transform70
-    402128: transform71
-    402130: transform72
-    402132: transform73
-    402134: transform74
-    402136: transform75
-    402138: transform76
-    402140: transform77
-    402142: transform78
-    402144: transform79
-    402146: transform8
-    402148: transform80
-    402150: transform81
-    402152: transform82
-    402154: transform83
-    402156: transform84
-    402158: transform85
-    402160: transform86
-    402162: transform87
-    402164: transform88
-    402166: transform89
-    402168: transform9
-    402170: transform90
-    402172: transform91
-    402174: transform92
-    402176: transform93
-    402178: transform94
-    402180: transform95
-    402182: transform96
-    402184: transform97
-    402186: transform98
-    402188: transform99
+    400970: smallBrick
+    400972: smallBrick 1
+    400974: smallBrick 2
+    400976: smallBrick 3
+    400978: smallBrick1
+    400980: smallBrick1 1
+    400982: smallBrick1 2
+    400984: smallBrick1 3
+    400986: smallBrick10
+    400988: smallBrick10 1
+    400990: smallBrick10 2
+    400992: smallBrick10 3
+    400994: smallBrick11
+    400996: smallBrick11 1
+    400998: smallBrick11 2
+    401000: smallBrick11 3
+    401002: smallBrick12
+    401004: smallBrick12 1
+    401006: smallBrick12 2
+    401008: smallBrick12 3
+    401010: smallBrick13
+    401012: smallBrick13 1
+    401014: smallBrick13 2
+    401016: smallBrick13 3
+    401018: smallBrick14
+    401020: smallBrick14 1
+    401022: smallBrick14 2
+    401024: smallBrick14 3
+    401026: smallBrick15
+    401028: smallBrick15 1
+    401030: smallBrick15 2
+    401032: smallBrick15 3
+    401034: smallBrick2
+    401036: smallBrick2 1
+    401038: smallBrick2 2
+    401040: smallBrick2 3
+    401042: smallBrick3
+    401044: smallBrick3 1
+    401046: smallBrick3 2
+    401048: smallBrick3 3
+    401050: smallBrick4
+    401052: smallBrick4 1
+    401054: smallBrick4 2
+    401056: smallBrick4 3
+    401058: smallBrick5
+    401060: smallBrick5 1
+    401062: smallBrick5 2
+    401064: smallBrick5 3
+    401066: smallBrick6
+    401068: smallBrick6 1
+    401070: smallBrick6 2
+    401072: smallBrick6 3
+    401074: smallBrick7
+    401076: smallBrick7 1
+    401078: smallBrick7 2
+    401080: smallBrick7 3
+    401082: smallBrick8
+    401084: smallBrick8 1
+    401086: smallBrick8 2
+    401088: smallBrick8 3
+    401090: smallBrick9
+    401092: smallBrick9 1
+    401094: smallBrick9 2
+    401096: smallBrick9 3
     2300000: largeBrick
     2300002: largeBrick 1
     2300004: largeBrick 2
@@ -2675,72 +1583,70 @@ ModelImporter:
     2300954: largeBrick99 1
     2300956: largeBrick99 2
     2300958: largeBrick99 3
-    2300960: pPlane1
-    2300962: smallBrick
-    2300964: smallBrick 1
-    2300966: smallBrick 2
-    2300968: smallBrick 3
-    2300970: smallBrick1
-    2300972: smallBrick1 1
-    2300974: smallBrick1 2
-    2300976: smallBrick1 3
-    2300978: smallBrick10
-    2300980: smallBrick10 1
-    2300982: smallBrick10 2
-    2300984: smallBrick10 3
-    2300986: smallBrick11
-    2300988: smallBrick11 1
-    2300990: smallBrick11 2
-    2300992: smallBrick11 3
-    2300994: smallBrick12
-    2300996: smallBrick12 1
-    2300998: smallBrick12 2
-    2301000: smallBrick12 3
-    2301002: smallBrick13
-    2301004: smallBrick13 1
-    2301006: smallBrick13 2
-    2301008: smallBrick13 3
-    2301010: smallBrick14
-    2301012: smallBrick14 1
-    2301014: smallBrick14 2
-    2301016: smallBrick14 3
-    2301018: smallBrick15
-    2301020: smallBrick15 1
-    2301022: smallBrick15 2
-    2301024: smallBrick15 3
-    2301026: smallBrick2
-    2301028: smallBrick2 1
-    2301030: smallBrick2 2
-    2301032: smallBrick2 3
-    2301034: smallBrick3
-    2301036: smallBrick3 1
-    2301038: smallBrick3 2
-    2301040: smallBrick3 3
-    2301042: smallBrick4
-    2301044: smallBrick4 1
-    2301046: smallBrick4 2
-    2301048: smallBrick4 3
-    2301050: smallBrick5
-    2301052: smallBrick5 1
-    2301054: smallBrick5 2
-    2301056: smallBrick5 3
-    2301058: smallBrick6
-    2301060: smallBrick6 1
-    2301062: smallBrick6 2
-    2301064: smallBrick6 3
-    2301066: smallBrick7
-    2301068: smallBrick7 1
-    2301070: smallBrick7 2
-    2301072: smallBrick7 3
-    2301074: smallBrick8
-    2301076: smallBrick8 1
-    2301078: smallBrick8 2
-    2301080: smallBrick8 3
-    2301082: smallBrick9
-    2301084: smallBrick9 1
-    2301086: smallBrick9 2
-    2301088: smallBrick9 3
-    2301090: nurbsCircle5
+    2300960: smallBrick
+    2300962: smallBrick 1
+    2300964: smallBrick 2
+    2300966: smallBrick 3
+    2300968: smallBrick1
+    2300970: smallBrick1 1
+    2300972: smallBrick1 2
+    2300974: smallBrick1 3
+    2300976: smallBrick10
+    2300978: smallBrick10 1
+    2300980: smallBrick10 2
+    2300982: smallBrick10 3
+    2300984: smallBrick11
+    2300986: smallBrick11 1
+    2300988: smallBrick11 2
+    2300990: smallBrick11 3
+    2300992: smallBrick12
+    2300994: smallBrick12 1
+    2300996: smallBrick12 2
+    2300998: smallBrick12 3
+    2301000: smallBrick13
+    2301002: smallBrick13 1
+    2301004: smallBrick13 2
+    2301006: smallBrick13 3
+    2301008: smallBrick14
+    2301010: smallBrick14 1
+    2301012: smallBrick14 2
+    2301014: smallBrick14 3
+    2301016: smallBrick15
+    2301018: smallBrick15 1
+    2301020: smallBrick15 2
+    2301022: smallBrick15 3
+    2301024: smallBrick2
+    2301026: smallBrick2 1
+    2301028: smallBrick2 2
+    2301030: smallBrick2 3
+    2301032: smallBrick3
+    2301034: smallBrick3 1
+    2301036: smallBrick3 2
+    2301038: smallBrick3 3
+    2301040: smallBrick4
+    2301042: smallBrick4 1
+    2301044: smallBrick4 2
+    2301046: smallBrick4 3
+    2301048: smallBrick5
+    2301050: smallBrick5 1
+    2301052: smallBrick5 2
+    2301054: smallBrick5 3
+    2301056: smallBrick6
+    2301058: smallBrick6 1
+    2301060: smallBrick6 2
+    2301062: smallBrick6 3
+    2301064: smallBrick7
+    2301066: smallBrick7 1
+    2301068: smallBrick7 2
+    2301070: smallBrick7 3
+    2301072: smallBrick8
+    2301074: smallBrick8 1
+    2301076: smallBrick8 2
+    2301078: smallBrick8 3
+    2301080: smallBrick9
+    2301082: smallBrick9 1
+    2301084: smallBrick9 2
+    2301086: smallBrick9 3
     3300000: largeBrick
     3300002: largeBrick 1
     3300004: largeBrick 2
@@ -3221,621 +2127,618 @@ ModelImporter:
     3300954: largeBrick99 1
     3300956: largeBrick99 2
     3300958: largeBrick99 3
-    3300960: pPlane1
-    3300962: smallBrick
-    3300964: smallBrick 1
-    3300966: smallBrick 2
-    3300968: smallBrick 3
-    3300970: smallBrick1
-    3300972: smallBrick1 1
-    3300974: smallBrick1 2
-    3300976: smallBrick1 3
-    3300978: smallBrick10
-    3300980: smallBrick10 1
-    3300982: smallBrick10 2
-    3300984: smallBrick10 3
-    3300986: smallBrick11
-    3300988: smallBrick11 1
-    3300990: smallBrick11 2
-    3300992: smallBrick11 3
-    3300994: smallBrick12
-    3300996: smallBrick12 1
-    3300998: smallBrick12 2
-    3301000: smallBrick12 3
-    3301002: smallBrick13
-    3301004: smallBrick13 1
-    3301006: smallBrick13 2
-    3301008: smallBrick13 3
-    3301010: smallBrick14
-    3301012: smallBrick14 1
-    3301014: smallBrick14 2
-    3301016: smallBrick14 3
-    3301018: smallBrick15
-    3301020: smallBrick15 1
-    3301022: smallBrick15 2
-    3301024: smallBrick15 3
-    3301026: smallBrick2
-    3301028: smallBrick2 1
-    3301030: smallBrick2 2
-    3301032: smallBrick2 3
-    3301034: smallBrick3
-    3301036: smallBrick3 1
-    3301038: smallBrick3 2
-    3301040: smallBrick3 3
-    3301042: smallBrick4
-    3301044: smallBrick4 1
-    3301046: smallBrick4 2
-    3301048: smallBrick4 3
-    3301050: smallBrick5
-    3301052: smallBrick5 1
-    3301054: smallBrick5 2
-    3301056: smallBrick5 3
-    3301058: smallBrick6
-    3301060: smallBrick6 1
-    3301062: smallBrick6 2
-    3301064: smallBrick6 3
-    3301066: smallBrick7
-    3301068: smallBrick7 1
-    3301070: smallBrick7 2
-    3301072: smallBrick7 3
-    3301074: smallBrick8
-    3301076: smallBrick8 1
-    3301078: smallBrick8 2
-    3301080: smallBrick8 3
-    3301082: smallBrick9
-    3301084: smallBrick9 1
-    3301086: smallBrick9 2
-    3301088: smallBrick9 3
-    3301090: nurbsCircle5
-    4300000: pPlane1
-    4300002: largeBrick
-    4300004: largeBrick1
-    4300006: largeBrick10
-    4300008: largeBrick100
-    4300010: largeBrick101
-    4300012: largeBrick102
-    4300014: largeBrick103
-    4300016: largeBrick104
-    4300018: largeBrick105
-    4300020: largeBrick106
-    4300022: largeBrick107
-    4300024: largeBrick108
-    4300026: largeBrick109
-    4300028: largeBrick11
-    4300030: largeBrick110
-    4300032: largeBrick111
-    4300034: largeBrick112
-    4300036: largeBrick113
-    4300038: largeBrick114
-    4300040: largeBrick115
-    4300042: largeBrick116
-    4300044: largeBrick117
-    4300046: largeBrick118
-    4300048: largeBrick119
-    4300050: largeBrick12
-    4300052: largeBrick13
-    4300054: largeBrick14
-    4300056: largeBrick15
-    4300058: largeBrick16
-    4300060: largeBrick17
-    4300062: largeBrick18
-    4300064: largeBrick19
-    4300066: largeBrick2
-    4300068: largeBrick20
-    4300070: largeBrick21
-    4300072: largeBrick22
-    4300074: largeBrick23
-    4300076: largeBrick24
-    4300078: largeBrick25
-    4300080: largeBrick26
-    4300082: largeBrick27
-    4300084: largeBrick28
-    4300086: largeBrick29
-    4300088: largeBrick3
-    4300090: largeBrick30
-    4300092: largeBrick31
-    4300094: largeBrick32
-    4300096: largeBrick33
-    4300098: largeBrick34
-    4300100: largeBrick35
-    4300102: largeBrick36
-    4300104: largeBrick37
-    4300106: largeBrick38
-    4300108: largeBrick39
-    4300110: largeBrick4
-    4300112: largeBrick40
-    4300114: largeBrick41
-    4300116: largeBrick42
-    4300118: largeBrick43
-    4300120: largeBrick44
-    4300122: largeBrick45
-    4300124: largeBrick46
-    4300126: largeBrick47
-    4300128: largeBrick48
-    4300130: largeBrick49
-    4300132: largeBrick5
-    4300134: largeBrick50
-    4300136: largeBrick51
-    4300138: largeBrick52
-    4300140: largeBrick53
-    4300142: largeBrick54
-    4300144: largeBrick55
-    4300146: largeBrick56
-    4300148: largeBrick57
-    4300150: largeBrick58
-    4300152: largeBrick59
-    4300154: largeBrick6
-    4300156: largeBrick60
-    4300158: largeBrick61
-    4300160: largeBrick62
-    4300162: largeBrick63
-    4300164: largeBrick64
-    4300166: largeBrick65
-    4300168: largeBrick66
-    4300170: largeBrick67
-    4300172: largeBrick68
-    4300174: largeBrick69
-    4300176: largeBrick7
-    4300178: largeBrick70
-    4300180: largeBrick71
-    4300182: largeBrick72
-    4300184: largeBrick73
-    4300186: largeBrick74
-    4300188: largeBrick75
-    4300190: largeBrick76
-    4300192: largeBrick77
-    4300194: largeBrick78
-    4300196: largeBrick79
-    4300198: largeBrick8
-    4300200: largeBrick80
-    4300202: largeBrick81
-    4300204: largeBrick82
-    4300206: largeBrick83
-    4300208: largeBrick84
-    4300210: largeBrick85
-    4300212: largeBrick86
-    4300214: largeBrick87
-    4300216: largeBrick88
-    4300218: largeBrick89
-    4300220: largeBrick9
-    4300222: largeBrick90
-    4300224: largeBrick91
-    4300226: largeBrick92
-    4300228: largeBrick93
-    4300230: largeBrick94
-    4300232: largeBrick95
-    4300234: largeBrick96
-    4300236: largeBrick97
-    4300238: largeBrick98
-    4300240: largeBrick99
-    4300242: smallBrick
-    4300244: smallBrick1
-    4300246: smallBrick10
-    4300248: smallBrick11
-    4300250: smallBrick12
-    4300252: smallBrick13
-    4300254: smallBrick14
-    4300256: smallBrick15
-    4300258: smallBrick2
-    4300260: smallBrick3
-    4300262: smallBrick4
-    4300264: smallBrick5
-    4300266: smallBrick6
-    4300268: smallBrick7
-    4300270: smallBrick8
-    4300272: smallBrick9
-    4300274: largeBrick
-    4300276: largeBrick1
-    4300278: largeBrick10
-    4300280: largeBrick100
-    4300282: largeBrick101
-    4300284: largeBrick102
-    4300286: largeBrick103
-    4300288: largeBrick104
-    4300290: largeBrick105
-    4300292: largeBrick106
-    4300294: largeBrick107
-    4300296: largeBrick108
-    4300298: largeBrick109
-    4300300: largeBrick11
-    4300302: largeBrick110
-    4300304: largeBrick111
-    4300306: largeBrick112
-    4300308: largeBrick113
-    4300310: largeBrick114
-    4300312: largeBrick115
-    4300314: largeBrick116
-    4300316: largeBrick117
-    4300318: largeBrick118
-    4300320: largeBrick119
-    4300322: largeBrick12
-    4300324: largeBrick13
-    4300326: largeBrick14
-    4300328: largeBrick15
-    4300330: largeBrick16
-    4300332: largeBrick17
-    4300334: largeBrick18
-    4300336: largeBrick19
-    4300338: largeBrick2
-    4300340: largeBrick20
-    4300342: largeBrick21
-    4300344: largeBrick22
-    4300346: largeBrick23
-    4300348: largeBrick24
-    4300350: largeBrick25
-    4300352: largeBrick26
-    4300354: largeBrick27
-    4300356: largeBrick28
-    4300358: largeBrick29
-    4300360: largeBrick3
-    4300362: largeBrick30
-    4300364: largeBrick31
-    4300366: largeBrick32
-    4300368: largeBrick33
-    4300370: largeBrick34
-    4300372: largeBrick35
-    4300374: largeBrick36
-    4300376: largeBrick37
-    4300378: largeBrick38
-    4300380: largeBrick39
-    4300382: largeBrick4
-    4300384: largeBrick40
-    4300386: largeBrick41
-    4300388: largeBrick42
-    4300390: largeBrick43
-    4300392: largeBrick44
-    4300394: largeBrick45
-    4300396: largeBrick46
-    4300398: largeBrick47
-    4300400: largeBrick48
-    4300402: largeBrick49
-    4300404: largeBrick5
-    4300406: largeBrick50
-    4300408: largeBrick51
-    4300410: largeBrick52
-    4300412: largeBrick53
-    4300414: largeBrick54
-    4300416: largeBrick55
-    4300418: largeBrick56
-    4300420: largeBrick57
-    4300422: largeBrick58
-    4300424: largeBrick59
-    4300426: largeBrick6
-    4300428: largeBrick60
-    4300430: largeBrick61
-    4300432: largeBrick62
-    4300434: largeBrick63
-    4300436: largeBrick64
-    4300438: largeBrick65
-    4300440: largeBrick66
-    4300442: largeBrick67
-    4300444: largeBrick68
-    4300446: largeBrick69
-    4300448: largeBrick7
-    4300450: largeBrick70
-    4300452: largeBrick71
-    4300454: largeBrick72
-    4300456: largeBrick73
-    4300458: largeBrick74
-    4300460: largeBrick75
-    4300462: largeBrick76
-    4300464: largeBrick77
-    4300466: largeBrick78
-    4300468: largeBrick79
-    4300470: largeBrick8
-    4300472: largeBrick80
-    4300474: largeBrick81
-    4300476: largeBrick82
-    4300478: largeBrick83
-    4300480: largeBrick84
-    4300482: largeBrick85
-    4300484: largeBrick86
-    4300486: largeBrick87
-    4300488: largeBrick88
-    4300490: largeBrick89
-    4300492: largeBrick9
-    4300494: largeBrick90
-    4300496: largeBrick91
-    4300498: largeBrick92
-    4300500: largeBrick93
-    4300502: largeBrick94
-    4300504: largeBrick95
-    4300506: largeBrick96
-    4300508: largeBrick97
-    4300510: largeBrick98
-    4300512: largeBrick99
-    4300514: smallBrick
-    4300516: smallBrick1
-    4300518: smallBrick10
-    4300520: smallBrick11
-    4300522: smallBrick12
-    4300524: smallBrick13
-    4300526: smallBrick14
-    4300528: smallBrick15
-    4300530: smallBrick2
-    4300532: smallBrick3
-    4300534: smallBrick4
-    4300536: smallBrick5
-    4300538: smallBrick6
-    4300540: smallBrick7
-    4300542: smallBrick8
-    4300544: smallBrick9
-    4300546: largeBrick
-    4300548: largeBrick1
-    4300550: largeBrick10
-    4300552: largeBrick100
-    4300554: largeBrick101
-    4300556: largeBrick102
-    4300558: largeBrick103
-    4300560: largeBrick104
-    4300562: largeBrick105
-    4300564: largeBrick106
-    4300566: largeBrick107
-    4300568: largeBrick108
-    4300570: largeBrick109
-    4300572: largeBrick11
-    4300574: largeBrick110
-    4300576: largeBrick111
-    4300578: largeBrick112
-    4300580: largeBrick113
-    4300582: largeBrick114
-    4300584: largeBrick115
-    4300586: largeBrick116
-    4300588: largeBrick117
-    4300590: largeBrick118
-    4300592: largeBrick119
-    4300594: largeBrick12
-    4300596: largeBrick13
-    4300598: largeBrick14
-    4300600: largeBrick15
-    4300602: largeBrick16
-    4300604: largeBrick17
-    4300606: largeBrick18
-    4300608: largeBrick19
-    4300610: largeBrick2
-    4300612: largeBrick20
-    4300614: largeBrick21
-    4300616: largeBrick22
-    4300618: largeBrick23
-    4300620: largeBrick24
-    4300622: largeBrick25
-    4300624: largeBrick26
-    4300626: largeBrick27
-    4300628: largeBrick28
-    4300630: largeBrick29
-    4300632: largeBrick3
-    4300634: largeBrick30
-    4300636: largeBrick31
-    4300638: largeBrick32
-    4300640: largeBrick33
-    4300642: largeBrick34
-    4300644: largeBrick35
-    4300646: largeBrick36
-    4300648: largeBrick37
-    4300650: largeBrick38
-    4300652: largeBrick39
-    4300654: largeBrick4
-    4300656: largeBrick40
-    4300658: largeBrick41
-    4300660: largeBrick42
-    4300662: largeBrick43
-    4300664: largeBrick44
-    4300666: largeBrick45
-    4300668: largeBrick46
-    4300670: largeBrick47
-    4300672: largeBrick48
-    4300674: largeBrick49
-    4300676: largeBrick5
-    4300678: largeBrick50
-    4300680: largeBrick51
-    4300682: largeBrick52
-    4300684: largeBrick53
-    4300686: largeBrick54
-    4300688: largeBrick55
-    4300690: largeBrick56
-    4300692: largeBrick57
-    4300694: largeBrick58
-    4300696: largeBrick59
-    4300698: largeBrick6
-    4300700: largeBrick60
-    4300702: largeBrick61
-    4300704: largeBrick62
-    4300706: largeBrick63
-    4300708: largeBrick64
-    4300710: largeBrick65
-    4300712: largeBrick66
-    4300714: largeBrick67
-    4300716: largeBrick68
-    4300718: largeBrick69
-    4300720: largeBrick7
-    4300722: largeBrick70
-    4300724: largeBrick71
-    4300726: largeBrick72
-    4300728: largeBrick73
-    4300730: largeBrick74
-    4300732: largeBrick75
-    4300734: largeBrick76
-    4300736: largeBrick77
-    4300738: largeBrick78
-    4300740: largeBrick79
-    4300742: largeBrick8
-    4300744: largeBrick80
-    4300746: largeBrick81
-    4300748: largeBrick82
-    4300750: largeBrick83
-    4300752: largeBrick84
-    4300754: largeBrick85
-    4300756: largeBrick86
-    4300758: largeBrick87
-    4300760: largeBrick88
-    4300762: largeBrick89
-    4300764: largeBrick9
-    4300766: largeBrick90
-    4300768: largeBrick91
-    4300770: largeBrick92
-    4300772: largeBrick93
-    4300774: largeBrick94
-    4300776: largeBrick95
-    4300778: largeBrick96
-    4300780: largeBrick97
-    4300782: largeBrick98
-    4300784: largeBrick99
-    4300786: smallBrick
-    4300788: smallBrick1
-    4300790: smallBrick10
-    4300792: smallBrick11
-    4300794: smallBrick12
-    4300796: smallBrick13
-    4300798: smallBrick14
-    4300800: smallBrick15
-    4300802: smallBrick2
-    4300804: smallBrick3
-    4300806: smallBrick4
-    4300808: smallBrick5
-    4300810: smallBrick6
-    4300812: smallBrick7
-    4300814: smallBrick8
-    4300816: smallBrick9
-    4300818: largeBrick
-    4300820: largeBrick1
-    4300822: largeBrick10
-    4300824: largeBrick100
-    4300826: largeBrick101
-    4300828: largeBrick102
-    4300830: largeBrick103
-    4300832: largeBrick104
-    4300834: largeBrick105
-    4300836: largeBrick106
-    4300838: largeBrick107
-    4300840: largeBrick108
-    4300842: largeBrick109
-    4300844: largeBrick11
-    4300846: largeBrick110
-    4300848: largeBrick111
-    4300850: largeBrick112
-    4300852: largeBrick113
-    4300854: largeBrick114
-    4300856: largeBrick115
-    4300858: largeBrick116
-    4300860: largeBrick117
-    4300862: largeBrick118
-    4300864: largeBrick119
-    4300866: largeBrick12
-    4300868: largeBrick13
-    4300870: largeBrick14
-    4300872: largeBrick15
-    4300874: largeBrick16
-    4300876: largeBrick17
-    4300878: largeBrick18
-    4300880: largeBrick19
-    4300882: largeBrick2
-    4300884: largeBrick20
-    4300886: largeBrick21
-    4300888: largeBrick22
-    4300890: largeBrick23
-    4300892: largeBrick24
-    4300894: largeBrick25
-    4300896: largeBrick26
-    4300898: largeBrick27
-    4300900: largeBrick28
-    4300902: largeBrick29
-    4300904: largeBrick3
-    4300906: largeBrick30
-    4300908: largeBrick31
-    4300910: largeBrick32
-    4300912: largeBrick33
-    4300914: largeBrick34
-    4300916: largeBrick35
-    4300918: largeBrick36
-    4300920: largeBrick37
-    4300922: largeBrick38
-    4300924: largeBrick39
-    4300926: largeBrick4
-    4300928: largeBrick40
-    4300930: largeBrick41
-    4300932: largeBrick42
-    4300934: largeBrick43
-    4300936: largeBrick44
-    4300938: largeBrick45
-    4300940: largeBrick46
-    4300942: largeBrick47
-    4300944: largeBrick48
-    4300946: largeBrick49
-    4300948: largeBrick5
-    4300950: largeBrick50
-    4300952: largeBrick51
-    4300954: largeBrick52
-    4300956: largeBrick53
-    4300958: largeBrick54
-    4300960: largeBrick55
-    4300962: largeBrick56
-    4300964: largeBrick57
-    4300966: largeBrick58
-    4300968: largeBrick59
-    4300970: largeBrick6
-    4300972: largeBrick60
-    4300974: largeBrick61
-    4300976: largeBrick62
-    4300978: largeBrick63
-    4300980: largeBrick64
-    4300982: largeBrick65
-    4300984: largeBrick66
-    4300986: largeBrick67
-    4300988: largeBrick68
-    4300990: largeBrick69
-    4300992: largeBrick7
-    4300994: largeBrick70
-    4300996: largeBrick71
-    4300998: largeBrick72
-    4301000: largeBrick73
-    4301002: largeBrick74
-    4301004: largeBrick75
-    4301006: largeBrick76
-    4301008: largeBrick77
-    4301010: largeBrick78
-    4301012: largeBrick79
-    4301014: largeBrick8
-    4301016: largeBrick80
-    4301018: largeBrick81
-    4301020: largeBrick82
-    4301022: largeBrick83
-    4301024: largeBrick84
-    4301026: largeBrick85
-    4301028: largeBrick86
-    4301030: largeBrick87
-    4301032: largeBrick88
-    4301034: largeBrick89
-    4301036: largeBrick9
-    4301038: largeBrick90
-    4301040: largeBrick91
-    4301042: largeBrick92
-    4301044: largeBrick93
-    4301046: largeBrick94
-    4301048: largeBrick95
-    4301050: largeBrick96
-    4301052: largeBrick97
-    4301054: largeBrick98
-    4301056: largeBrick99
-    4301058: smallBrick
-    4301060: smallBrick1
-    4301062: smallBrick10
-    4301064: smallBrick11
-    4301066: smallBrick12
-    4301068: smallBrick13
-    4301070: smallBrick14
-    4301072: smallBrick15
-    4301074: smallBrick2
-    4301076: smallBrick3
-    4301078: smallBrick4
-    4301080: smallBrick5
-    4301082: smallBrick6
-    4301084: smallBrick7
-    4301086: smallBrick8
-    4301088: smallBrick9
-    4301090: nurbsCircle5
-    7400000: Falling
-    7400002: Stationary
-    7400004: Floating
+    3300960: smallBrick
+    3300962: smallBrick 1
+    3300964: smallBrick 2
+    3300966: smallBrick 3
+    3300968: smallBrick1
+    3300970: smallBrick1 1
+    3300972: smallBrick1 2
+    3300974: smallBrick1 3
+    3300976: smallBrick10
+    3300978: smallBrick10 1
+    3300980: smallBrick10 2
+    3300982: smallBrick10 3
+    3300984: smallBrick11
+    3300986: smallBrick11 1
+    3300988: smallBrick11 2
+    3300990: smallBrick11 3
+    3300992: smallBrick12
+    3300994: smallBrick12 1
+    3300996: smallBrick12 2
+    3300998: smallBrick12 3
+    3301000: smallBrick13
+    3301002: smallBrick13 1
+    3301004: smallBrick13 2
+    3301006: smallBrick13 3
+    3301008: smallBrick14
+    3301010: smallBrick14 1
+    3301012: smallBrick14 2
+    3301014: smallBrick14 3
+    3301016: smallBrick15
+    3301018: smallBrick15 1
+    3301020: smallBrick15 2
+    3301022: smallBrick15 3
+    3301024: smallBrick2
+    3301026: smallBrick2 1
+    3301028: smallBrick2 2
+    3301030: smallBrick2 3
+    3301032: smallBrick3
+    3301034: smallBrick3 1
+    3301036: smallBrick3 2
+    3301038: smallBrick3 3
+    3301040: smallBrick4
+    3301042: smallBrick4 1
+    3301044: smallBrick4 2
+    3301046: smallBrick4 3
+    3301048: smallBrick5
+    3301050: smallBrick5 1
+    3301052: smallBrick5 2
+    3301054: smallBrick5 3
+    3301056: smallBrick6
+    3301058: smallBrick6 1
+    3301060: smallBrick6 2
+    3301062: smallBrick6 3
+    3301064: smallBrick7
+    3301066: smallBrick7 1
+    3301068: smallBrick7 2
+    3301070: smallBrick7 3
+    3301072: smallBrick8
+    3301074: smallBrick8 1
+    3301076: smallBrick8 2
+    3301078: smallBrick8 3
+    3301080: smallBrick9
+    3301082: smallBrick9 1
+    3301084: smallBrick9 2
+    3301086: smallBrick9 3
+    4300000: largeBrick
+    4300002: largeBrick1
+    4300004: largeBrick10
+    4300006: largeBrick100
+    4300008: largeBrick101
+    4300010: largeBrick102
+    4300012: largeBrick103
+    4300014: largeBrick104
+    4300016: largeBrick105
+    4300018: largeBrick106
+    4300020: largeBrick107
+    4300022: largeBrick108
+    4300024: largeBrick109
+    4300026: largeBrick11
+    4300028: largeBrick110
+    4300030: largeBrick111
+    4300032: largeBrick112
+    4300034: largeBrick113
+    4300036: largeBrick114
+    4300038: largeBrick115
+    4300040: largeBrick116
+    4300042: largeBrick117
+    4300044: largeBrick118
+    4300046: largeBrick119
+    4300048: largeBrick12
+    4300050: largeBrick13
+    4300052: largeBrick14
+    4300054: largeBrick15
+    4300056: largeBrick16
+    4300058: largeBrick17
+    4300060: largeBrick18
+    4300062: largeBrick19
+    4300064: largeBrick2
+    4300066: largeBrick20
+    4300068: largeBrick21
+    4300070: largeBrick22
+    4300072: largeBrick23
+    4300074: largeBrick24
+    4300076: largeBrick25
+    4300078: largeBrick26
+    4300080: largeBrick27
+    4300082: largeBrick28
+    4300084: largeBrick29
+    4300086: largeBrick3
+    4300088: largeBrick30
+    4300090: largeBrick31
+    4300092: largeBrick32
+    4300094: largeBrick33
+    4300096: largeBrick34
+    4300098: largeBrick35
+    4300100: largeBrick36
+    4300102: largeBrick37
+    4300104: largeBrick38
+    4300106: largeBrick39
+    4300108: largeBrick4
+    4300110: largeBrick40
+    4300112: largeBrick41
+    4300114: largeBrick42
+    4300116: largeBrick43
+    4300118: largeBrick44
+    4300120: largeBrick45
+    4300122: largeBrick46
+    4300124: largeBrick47
+    4300126: largeBrick48
+    4300128: largeBrick49
+    4300130: largeBrick5
+    4300132: largeBrick50
+    4300134: largeBrick51
+    4300136: largeBrick52
+    4300138: largeBrick53
+    4300140: largeBrick54
+    4300142: largeBrick55
+    4300144: largeBrick56
+    4300146: largeBrick57
+    4300148: largeBrick58
+    4300150: largeBrick59
+    4300152: largeBrick6
+    4300154: largeBrick60
+    4300156: largeBrick61
+    4300158: largeBrick62
+    4300160: largeBrick63
+    4300162: largeBrick64
+    4300164: largeBrick65
+    4300166: largeBrick66
+    4300168: largeBrick67
+    4300170: largeBrick68
+    4300172: largeBrick69
+    4300174: largeBrick7
+    4300176: largeBrick70
+    4300178: largeBrick71
+    4300180: largeBrick72
+    4300182: largeBrick73
+    4300184: largeBrick74
+    4300186: largeBrick75
+    4300188: largeBrick76
+    4300190: largeBrick77
+    4300192: largeBrick78
+    4300194: largeBrick79
+    4300196: largeBrick8
+    4300198: largeBrick80
+    4300200: largeBrick81
+    4300202: largeBrick82
+    4300204: largeBrick83
+    4300206: largeBrick84
+    4300208: largeBrick85
+    4300210: largeBrick86
+    4300212: largeBrick87
+    4300214: largeBrick88
+    4300216: largeBrick89
+    4300218: largeBrick9
+    4300220: largeBrick90
+    4300222: largeBrick91
+    4300224: largeBrick92
+    4300226: largeBrick93
+    4300228: largeBrick94
+    4300230: largeBrick95
+    4300232: largeBrick96
+    4300234: largeBrick97
+    4300236: largeBrick98
+    4300238: largeBrick99
+    4300240: smallBrick
+    4300242: smallBrick1
+    4300244: smallBrick10
+    4300246: smallBrick11
+    4300248: smallBrick12
+    4300250: smallBrick13
+    4300252: smallBrick14
+    4300254: smallBrick15
+    4300256: smallBrick2
+    4300258: smallBrick3
+    4300260: smallBrick4
+    4300262: smallBrick5
+    4300264: smallBrick6
+    4300266: smallBrick7
+    4300268: smallBrick8
+    4300270: smallBrick9
+    4300272: largeBrick
+    4300274: largeBrick1
+    4300276: largeBrick10
+    4300278: largeBrick100
+    4300280: largeBrick101
+    4300282: largeBrick102
+    4300284: largeBrick103
+    4300286: largeBrick104
+    4300288: largeBrick105
+    4300290: largeBrick106
+    4300292: largeBrick107
+    4300294: largeBrick108
+    4300296: largeBrick109
+    4300298: largeBrick11
+    4300300: largeBrick110
+    4300302: largeBrick111
+    4300304: largeBrick112
+    4300306: largeBrick113
+    4300308: largeBrick114
+    4300310: largeBrick115
+    4300312: largeBrick116
+    4300314: largeBrick117
+    4300316: largeBrick118
+    4300318: largeBrick119
+    4300320: largeBrick12
+    4300322: largeBrick13
+    4300324: largeBrick14
+    4300326: largeBrick15
+    4300328: largeBrick16
+    4300330: largeBrick17
+    4300332: largeBrick18
+    4300334: largeBrick19
+    4300336: largeBrick2
+    4300338: largeBrick20
+    4300340: largeBrick21
+    4300342: largeBrick22
+    4300344: largeBrick23
+    4300346: largeBrick24
+    4300348: largeBrick25
+    4300350: largeBrick26
+    4300352: largeBrick27
+    4300354: largeBrick28
+    4300356: largeBrick29
+    4300358: largeBrick3
+    4300360: largeBrick30
+    4300362: largeBrick31
+    4300364: largeBrick32
+    4300366: largeBrick33
+    4300368: largeBrick34
+    4300370: largeBrick35
+    4300372: largeBrick36
+    4300374: largeBrick37
+    4300376: largeBrick38
+    4300378: largeBrick39
+    4300380: largeBrick4
+    4300382: largeBrick40
+    4300384: largeBrick41
+    4300386: largeBrick42
+    4300388: largeBrick43
+    4300390: largeBrick44
+    4300392: largeBrick45
+    4300394: largeBrick46
+    4300396: largeBrick47
+    4300398: largeBrick48
+    4300400: largeBrick49
+    4300402: largeBrick5
+    4300404: largeBrick50
+    4300406: largeBrick51
+    4300408: largeBrick52
+    4300410: largeBrick53
+    4300412: largeBrick54
+    4300414: largeBrick55
+    4300416: largeBrick56
+    4300418: largeBrick57
+    4300420: largeBrick58
+    4300422: largeBrick59
+    4300424: largeBrick6
+    4300426: largeBrick60
+    4300428: largeBrick61
+    4300430: largeBrick62
+    4300432: largeBrick63
+    4300434: largeBrick64
+    4300436: largeBrick65
+    4300438: largeBrick66
+    4300440: largeBrick67
+    4300442: largeBrick68
+    4300444: largeBrick69
+    4300446: largeBrick7
+    4300448: largeBrick70
+    4300450: largeBrick71
+    4300452: largeBrick72
+    4300454: largeBrick73
+    4300456: largeBrick74
+    4300458: largeBrick75
+    4300460: largeBrick76
+    4300462: largeBrick77
+    4300464: largeBrick78
+    4300466: largeBrick79
+    4300468: largeBrick8
+    4300470: largeBrick80
+    4300472: largeBrick81
+    4300474: largeBrick82
+    4300476: largeBrick83
+    4300478: largeBrick84
+    4300480: largeBrick85
+    4300482: largeBrick86
+    4300484: largeBrick87
+    4300486: largeBrick88
+    4300488: largeBrick89
+    4300490: largeBrick9
+    4300492: largeBrick90
+    4300494: largeBrick91
+    4300496: largeBrick92
+    4300498: largeBrick93
+    4300500: largeBrick94
+    4300502: largeBrick95
+    4300504: largeBrick96
+    4300506: largeBrick97
+    4300508: largeBrick98
+    4300510: largeBrick99
+    4300512: smallBrick
+    4300514: smallBrick1
+    4300516: smallBrick10
+    4300518: smallBrick11
+    4300520: smallBrick12
+    4300522: smallBrick13
+    4300524: smallBrick14
+    4300526: smallBrick15
+    4300528: smallBrick2
+    4300530: smallBrick3
+    4300532: smallBrick4
+    4300534: smallBrick5
+    4300536: smallBrick6
+    4300538: smallBrick7
+    4300540: smallBrick8
+    4300542: smallBrick9
+    4300544: largeBrick
+    4300546: largeBrick1
+    4300548: largeBrick10
+    4300550: largeBrick100
+    4300552: largeBrick101
+    4300554: largeBrick102
+    4300556: largeBrick103
+    4300558: largeBrick104
+    4300560: largeBrick105
+    4300562: largeBrick106
+    4300564: largeBrick107
+    4300566: largeBrick108
+    4300568: largeBrick109
+    4300570: largeBrick11
+    4300572: largeBrick110
+    4300574: largeBrick111
+    4300576: largeBrick112
+    4300578: largeBrick113
+    4300580: largeBrick114
+    4300582: largeBrick115
+    4300584: largeBrick116
+    4300586: largeBrick117
+    4300588: largeBrick118
+    4300590: largeBrick119
+    4300592: largeBrick12
+    4300594: largeBrick13
+    4300596: largeBrick14
+    4300598: largeBrick15
+    4300600: largeBrick16
+    4300602: largeBrick17
+    4300604: largeBrick18
+    4300606: largeBrick19
+    4300608: largeBrick2
+    4300610: largeBrick20
+    4300612: largeBrick21
+    4300614: largeBrick22
+    4300616: largeBrick23
+    4300618: largeBrick24
+    4300620: largeBrick25
+    4300622: largeBrick26
+    4300624: largeBrick27
+    4300626: largeBrick28
+    4300628: largeBrick29
+    4300630: largeBrick3
+    4300632: largeBrick30
+    4300634: largeBrick31
+    4300636: largeBrick32
+    4300638: largeBrick33
+    4300640: largeBrick34
+    4300642: largeBrick35
+    4300644: largeBrick36
+    4300646: largeBrick37
+    4300648: largeBrick38
+    4300650: largeBrick39
+    4300652: largeBrick4
+    4300654: largeBrick40
+    4300656: largeBrick41
+    4300658: largeBrick42
+    4300660: largeBrick43
+    4300662: largeBrick44
+    4300664: largeBrick45
+    4300666: largeBrick46
+    4300668: largeBrick47
+    4300670: largeBrick48
+    4300672: largeBrick49
+    4300674: largeBrick5
+    4300676: largeBrick50
+    4300678: largeBrick51
+    4300680: largeBrick52
+    4300682: largeBrick53
+    4300684: largeBrick54
+    4300686: largeBrick55
+    4300688: largeBrick56
+    4300690: largeBrick57
+    4300692: largeBrick58
+    4300694: largeBrick59
+    4300696: largeBrick6
+    4300698: largeBrick60
+    4300700: largeBrick61
+    4300702: largeBrick62
+    4300704: largeBrick63
+    4300706: largeBrick64
+    4300708: largeBrick65
+    4300710: largeBrick66
+    4300712: largeBrick67
+    4300714: largeBrick68
+    4300716: largeBrick69
+    4300718: largeBrick7
+    4300720: largeBrick70
+    4300722: largeBrick71
+    4300724: largeBrick72
+    4300726: largeBrick73
+    4300728: largeBrick74
+    4300730: largeBrick75
+    4300732: largeBrick76
+    4300734: largeBrick77
+    4300736: largeBrick78
+    4300738: largeBrick79
+    4300740: largeBrick8
+    4300742: largeBrick80
+    4300744: largeBrick81
+    4300746: largeBrick82
+    4300748: largeBrick83
+    4300750: largeBrick84
+    4300752: largeBrick85
+    4300754: largeBrick86
+    4300756: largeBrick87
+    4300758: largeBrick88
+    4300760: largeBrick89
+    4300762: largeBrick9
+    4300764: largeBrick90
+    4300766: largeBrick91
+    4300768: largeBrick92
+    4300770: largeBrick93
+    4300772: largeBrick94
+    4300774: largeBrick95
+    4300776: largeBrick96
+    4300778: largeBrick97
+    4300780: largeBrick98
+    4300782: largeBrick99
+    4300784: smallBrick
+    4300786: smallBrick1
+    4300788: smallBrick10
+    4300790: smallBrick11
+    4300792: smallBrick12
+    4300794: smallBrick13
+    4300796: smallBrick14
+    4300798: smallBrick15
+    4300800: smallBrick2
+    4300802: smallBrick3
+    4300804: smallBrick4
+    4300806: smallBrick5
+    4300808: smallBrick6
+    4300810: smallBrick7
+    4300812: smallBrick8
+    4300814: smallBrick9
+    4300816: largeBrick
+    4300818: largeBrick1
+    4300820: largeBrick10
+    4300822: largeBrick100
+    4300824: largeBrick101
+    4300826: largeBrick102
+    4300828: largeBrick103
+    4300830: largeBrick104
+    4300832: largeBrick105
+    4300834: largeBrick106
+    4300836: largeBrick107
+    4300838: largeBrick108
+    4300840: largeBrick109
+    4300842: largeBrick11
+    4300844: largeBrick110
+    4300846: largeBrick111
+    4300848: largeBrick112
+    4300850: largeBrick113
+    4300852: largeBrick114
+    4300854: largeBrick115
+    4300856: largeBrick116
+    4300858: largeBrick117
+    4300860: largeBrick118
+    4300862: largeBrick119
+    4300864: largeBrick12
+    4300866: largeBrick13
+    4300868: largeBrick14
+    4300870: largeBrick15
+    4300872: largeBrick16
+    4300874: largeBrick17
+    4300876: largeBrick18
+    4300878: largeBrick19
+    4300880: largeBrick2
+    4300882: largeBrick20
+    4300884: largeBrick21
+    4300886: largeBrick22
+    4300888: largeBrick23
+    4300890: largeBrick24
+    4300892: largeBrick25
+    4300894: largeBrick26
+    4300896: largeBrick27
+    4300898: largeBrick28
+    4300900: largeBrick29
+    4300902: largeBrick3
+    4300904: largeBrick30
+    4300906: largeBrick31
+    4300908: largeBrick32
+    4300910: largeBrick33
+    4300912: largeBrick34
+    4300914: largeBrick35
+    4300916: largeBrick36
+    4300918: largeBrick37
+    4300920: largeBrick38
+    4300922: largeBrick39
+    4300924: largeBrick4
+    4300926: largeBrick40
+    4300928: largeBrick41
+    4300930: largeBrick42
+    4300932: largeBrick43
+    4300934: largeBrick44
+    4300936: largeBrick45
+    4300938: largeBrick46
+    4300940: largeBrick47
+    4300942: largeBrick48
+    4300944: largeBrick49
+    4300946: largeBrick5
+    4300948: largeBrick50
+    4300950: largeBrick51
+    4300952: largeBrick52
+    4300954: largeBrick53
+    4300956: largeBrick54
+    4300958: largeBrick55
+    4300960: largeBrick56
+    4300962: largeBrick57
+    4300964: largeBrick58
+    4300966: largeBrick59
+    4300968: largeBrick6
+    4300970: largeBrick60
+    4300972: largeBrick61
+    4300974: largeBrick62
+    4300976: largeBrick63
+    4300978: largeBrick64
+    4300980: largeBrick65
+    4300982: largeBrick66
+    4300984: largeBrick67
+    4300986: largeBrick68
+    4300988: largeBrick69
+    4300990: largeBrick7
+    4300992: largeBrick70
+    4300994: largeBrick71
+    4300996: largeBrick72
+    4300998: largeBrick73
+    4301000: largeBrick74
+    4301002: largeBrick75
+    4301004: largeBrick76
+    4301006: largeBrick77
+    4301008: largeBrick78
+    4301010: largeBrick79
+    4301012: largeBrick8
+    4301014: largeBrick80
+    4301016: largeBrick81
+    4301018: largeBrick82
+    4301020: largeBrick83
+    4301022: largeBrick84
+    4301024: largeBrick85
+    4301026: largeBrick86
+    4301028: largeBrick87
+    4301030: largeBrick88
+    4301032: largeBrick89
+    4301034: largeBrick9
+    4301036: largeBrick90
+    4301038: largeBrick91
+    4301040: largeBrick92
+    4301042: largeBrick93
+    4301044: largeBrick94
+    4301046: largeBrick95
+    4301048: largeBrick96
+    4301050: largeBrick97
+    4301052: largeBrick98
+    4301054: largeBrick99
+    4301056: smallBrick
+    4301058: smallBrick1
+    4301060: smallBrick10
+    4301062: smallBrick11
+    4301064: smallBrick12
+    4301066: smallBrick13
+    4301068: smallBrick14
+    4301070: smallBrick15
+    4301072: smallBrick2
+    4301074: smallBrick3
+    4301076: smallBrick4
+    4301078: smallBrick5
+    4301080: smallBrick6
+    4301082: smallBrick7
+    4301084: smallBrick8
+    4301086: smallBrick9
+    7400000: Floating
+    7400002: Falling
+    7400004: Drop
+    7400006: Frozen
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -3850,7 +2753,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -3858,9 +2761,1133 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Falling
+      name: Floating
       takeName: Take 001
       firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/largeBrick
+        weight: 1
+      - path: nurbsCircle1/largeBrick1
+        weight: 1
+      - path: nurbsCircle1/largeBrick2
+        weight: 1
+      - path: nurbsCircle1/largeBrick3
+        weight: 1
+      - path: nurbsCircle1/largeBrick4
+        weight: 1
+      - path: nurbsCircle1/largeBrick5
+        weight: 1
+      - path: nurbsCircle1/largeBrick6
+        weight: 1
+      - path: nurbsCircle1/largeBrick7
+        weight: 1
+      - path: nurbsCircle1/largeBrick8
+        weight: 1
+      - path: nurbsCircle1/largeBrick9
+        weight: 1
+      - path: nurbsCircle1/largeBrick10
+        weight: 1
+      - path: nurbsCircle1/largeBrick11
+        weight: 1
+      - path: nurbsCircle1/largeBrick12
+        weight: 1
+      - path: nurbsCircle1/largeBrick13
+        weight: 1
+      - path: nurbsCircle1/largeBrick14
+        weight: 1
+      - path: nurbsCircle1/largeBrick15
+        weight: 1
+      - path: nurbsCircle1/largeBrick16
+        weight: 1
+      - path: nurbsCircle1/largeBrick17
+        weight: 1
+      - path: nurbsCircle1/largeBrick18
+        weight: 1
+      - path: nurbsCircle1/largeBrick19
+        weight: 1
+      - path: nurbsCircle1/largeBrick20
+        weight: 1
+      - path: nurbsCircle1/largeBrick21
+        weight: 1
+      - path: nurbsCircle1/largeBrick22
+        weight: 1
+      - path: nurbsCircle1/largeBrick23
+        weight: 1
+      - path: nurbsCircle1/largeBrick24
+        weight: 1
+      - path: nurbsCircle1/largeBrick25
+        weight: 1
+      - path: nurbsCircle1/largeBrick26
+        weight: 1
+      - path: nurbsCircle1/largeBrick27
+        weight: 1
+      - path: nurbsCircle1/largeBrick28
+        weight: 1
+      - path: nurbsCircle1/largeBrick29
+        weight: 1
+      - path: nurbsCircle1/largeBrick30
+        weight: 1
+      - path: nurbsCircle1/largeBrick31
+        weight: 1
+      - path: nurbsCircle1/largeBrick32
+        weight: 1
+      - path: nurbsCircle1/largeBrick33
+        weight: 1
+      - path: nurbsCircle1/largeBrick34
+        weight: 1
+      - path: nurbsCircle1/largeBrick35
+        weight: 1
+      - path: nurbsCircle1/largeBrick36
+        weight: 1
+      - path: nurbsCircle1/largeBrick37
+        weight: 1
+      - path: nurbsCircle1/largeBrick38
+        weight: 1
+      - path: nurbsCircle1/largeBrick39
+        weight: 1
+      - path: nurbsCircle1/largeBrick40
+        weight: 1
+      - path: nurbsCircle1/largeBrick41
+        weight: 1
+      - path: nurbsCircle1/largeBrick42
+        weight: 1
+      - path: nurbsCircle1/largeBrick43
+        weight: 1
+      - path: nurbsCircle1/largeBrick44
+        weight: 1
+      - path: nurbsCircle1/largeBrick45
+        weight: 1
+      - path: nurbsCircle1/largeBrick46
+        weight: 1
+      - path: nurbsCircle1/largeBrick47
+        weight: 1
+      - path: nurbsCircle1/largeBrick48
+        weight: 1
+      - path: nurbsCircle1/largeBrick49
+        weight: 1
+      - path: nurbsCircle1/largeBrick50
+        weight: 1
+      - path: nurbsCircle1/largeBrick51
+        weight: 1
+      - path: nurbsCircle1/largeBrick52
+        weight: 1
+      - path: nurbsCircle1/largeBrick53
+        weight: 1
+      - path: nurbsCircle1/largeBrick54
+        weight: 1
+      - path: nurbsCircle1/largeBrick55
+        weight: 1
+      - path: nurbsCircle1/largeBrick56
+        weight: 1
+      - path: nurbsCircle1/largeBrick57
+        weight: 1
+      - path: nurbsCircle1/largeBrick58
+        weight: 1
+      - path: nurbsCircle1/largeBrick59
+        weight: 1
+      - path: nurbsCircle1/largeBrick60
+        weight: 1
+      - path: nurbsCircle1/largeBrick61
+        weight: 1
+      - path: nurbsCircle1/largeBrick62
+        weight: 1
+      - path: nurbsCircle1/largeBrick63
+        weight: 1
+      - path: nurbsCircle1/largeBrick64
+        weight: 1
+      - path: nurbsCircle1/largeBrick65
+        weight: 1
+      - path: nurbsCircle1/largeBrick66
+        weight: 1
+      - path: nurbsCircle1/largeBrick67
+        weight: 1
+      - path: nurbsCircle1/largeBrick68
+        weight: 1
+      - path: nurbsCircle1/largeBrick69
+        weight: 1
+      - path: nurbsCircle1/largeBrick70
+        weight: 1
+      - path: nurbsCircle1/largeBrick71
+        weight: 1
+      - path: nurbsCircle1/largeBrick72
+        weight: 1
+      - path: nurbsCircle1/largeBrick73
+        weight: 1
+      - path: nurbsCircle1/largeBrick74
+        weight: 1
+      - path: nurbsCircle1/largeBrick75
+        weight: 1
+      - path: nurbsCircle1/largeBrick76
+        weight: 1
+      - path: nurbsCircle1/largeBrick77
+        weight: 1
+      - path: nurbsCircle1/largeBrick78
+        weight: 1
+      - path: nurbsCircle1/largeBrick79
+        weight: 1
+      - path: nurbsCircle1/largeBrick80
+        weight: 1
+      - path: nurbsCircle1/largeBrick81
+        weight: 1
+      - path: nurbsCircle1/largeBrick82
+        weight: 1
+      - path: nurbsCircle1/largeBrick83
+        weight: 1
+      - path: nurbsCircle1/largeBrick84
+        weight: 1
+      - path: nurbsCircle1/largeBrick85
+        weight: 1
+      - path: nurbsCircle1/largeBrick86
+        weight: 1
+      - path: nurbsCircle1/largeBrick87
+        weight: 1
+      - path: nurbsCircle1/largeBrick88
+        weight: 1
+      - path: nurbsCircle1/largeBrick89
+        weight: 1
+      - path: nurbsCircle1/largeBrick90
+        weight: 1
+      - path: nurbsCircle1/largeBrick91
+        weight: 1
+      - path: nurbsCircle1/largeBrick92
+        weight: 1
+      - path: nurbsCircle1/largeBrick93
+        weight: 1
+      - path: nurbsCircle1/largeBrick94
+        weight: 1
+      - path: nurbsCircle1/largeBrick95
+        weight: 1
+      - path: nurbsCircle1/largeBrick96
+        weight: 1
+      - path: nurbsCircle1/largeBrick97
+        weight: 1
+      - path: nurbsCircle1/largeBrick98
+        weight: 1
+      - path: nurbsCircle1/largeBrick99
+        weight: 1
+      - path: nurbsCircle1/largeBrick100
+        weight: 1
+      - path: nurbsCircle1/largeBrick101
+        weight: 1
+      - path: nurbsCircle1/largeBrick102
+        weight: 1
+      - path: nurbsCircle1/largeBrick103
+        weight: 1
+      - path: nurbsCircle1/largeBrick104
+        weight: 1
+      - path: nurbsCircle1/largeBrick105
+        weight: 1
+      - path: nurbsCircle1/largeBrick106
+        weight: 1
+      - path: nurbsCircle1/largeBrick107
+        weight: 1
+      - path: nurbsCircle1/largeBrick108
+        weight: 1
+      - path: nurbsCircle1/largeBrick109
+        weight: 1
+      - path: nurbsCircle1/largeBrick110
+        weight: 1
+      - path: nurbsCircle1/largeBrick111
+        weight: 1
+      - path: nurbsCircle1/largeBrick112
+        weight: 1
+      - path: nurbsCircle1/largeBrick113
+        weight: 1
+      - path: nurbsCircle1/largeBrick114
+        weight: 1
+      - path: nurbsCircle1/largeBrick115
+        weight: 1
+      - path: nurbsCircle1/largeBrick116
+        weight: 1
+      - path: nurbsCircle1/largeBrick117
+        weight: 1
+      - path: nurbsCircle1/largeBrick118
+        weight: 1
+      - path: nurbsCircle1/largeBrick119
+        weight: 1
+      - path: nurbsCircle1/smallBrick
+        weight: 1
+      - path: nurbsCircle1/smallBrick1
+        weight: 1
+      - path: nurbsCircle1/smallBrick2
+        weight: 1
+      - path: nurbsCircle1/smallBrick3
+        weight: 1
+      - path: nurbsCircle1/smallBrick4
+        weight: 1
+      - path: nurbsCircle1/smallBrick5
+        weight: 1
+      - path: nurbsCircle1/smallBrick6
+        weight: 1
+      - path: nurbsCircle1/smallBrick7
+        weight: 1
+      - path: nurbsCircle1/smallBrick8
+        weight: 1
+      - path: nurbsCircle1/smallBrick9
+        weight: 1
+      - path: nurbsCircle1/smallBrick10
+        weight: 1
+      - path: nurbsCircle1/smallBrick11
+        weight: 1
+      - path: nurbsCircle1/smallBrick12
+        weight: 1
+      - path: nurbsCircle1/smallBrick13
+        weight: 1
+      - path: nurbsCircle1/smallBrick14
+        weight: 1
+      - path: nurbsCircle1/smallBrick15
+        weight: 1
+      - path: nurbsCircle2
+        weight: 1
+      - path: nurbsCircle2/largeBrick 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick1 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick2 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick3 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick4 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick5 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick6 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick7 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick8 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick9 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick10 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick11 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick12 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick13 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick14 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick15 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick16 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick17 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick18 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick19 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick20 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick21 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick22 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick23 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick24 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick25 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick26 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick27 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick28 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick29 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick30 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick31 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick32 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick33 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick34 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick35 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick36 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick37 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick38 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick39 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick40 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick41 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick42 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick43 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick44 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick45 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick46 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick47 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick48 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick49 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick50 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick51 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick52 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick53 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick54 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick55 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick56 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick57 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick58 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick59 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick60 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick61 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick62 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick63 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick64 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick65 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick66 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick67 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick68 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick69 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick70 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick71 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick72 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick73 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick74 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick75 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick76 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick77 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick78 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick79 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick80 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick81 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick82 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick83 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick84 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick85 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick86 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick87 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick88 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick89 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick90 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick91 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick92 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick93 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick94 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick95 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick96 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick97 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick98 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick99 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick100 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick101 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick102 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick103 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick104 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick105 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick106 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick107 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick108 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick109 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick110 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick111 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick112 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick113 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick114 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick115 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick116 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick117 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick118 1
+        weight: 1
+      - path: nurbsCircle2/largeBrick119 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick1 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick2 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick3 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick4 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick5 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick6 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick7 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick8 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick9 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick10 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick11 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick12 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick13 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick14 1
+        weight: 1
+      - path: nurbsCircle2/smallBrick15 1
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: nurbsCircle3/largeBrick 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick1 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick2 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick3 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick4 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick5 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick6 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick7 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick8 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick9 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick10 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick11 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick12 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick13 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick14 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick15 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick16 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick17 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick18 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick19 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick20 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick21 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick22 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick23 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick24 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick25 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick26 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick27 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick28 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick29 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick30 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick31 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick32 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick33 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick34 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick35 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick36 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick37 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick38 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick39 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick40 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick41 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick42 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick43 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick44 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick45 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick46 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick47 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick48 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick49 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick50 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick51 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick52 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick53 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick54 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick55 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick56 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick57 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick58 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick59 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick60 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick61 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick62 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick63 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick64 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick65 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick66 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick67 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick68 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick69 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick70 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick71 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick72 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick73 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick74 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick75 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick76 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick77 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick78 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick79 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick80 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick81 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick82 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick83 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick84 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick85 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick86 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick87 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick88 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick89 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick90 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick91 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick92 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick93 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick94 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick95 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick96 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick97 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick98 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick99 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick100 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick101 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick102 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick103 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick104 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick105 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick106 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick107 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick108 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick109 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick110 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick111 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick112 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick113 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick114 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick115 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick116 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick117 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick118 2
+        weight: 1
+      - path: nurbsCircle3/largeBrick119 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick1 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick2 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick3 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick4 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick5 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick6 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick7 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick8 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick9 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick10 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick11 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick12 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick13 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick14 2
+        weight: 1
+      - path: nurbsCircle3/smallBrick15 2
+        weight: 1
+      - path: nurbsCircle4
+        weight: 1
+      - path: nurbsCircle4/largeBrick 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick1 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick2 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick3 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick4 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick5 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick6 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick7 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick8 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick9 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick10 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick11 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick12 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick13 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick14 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick15 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick16 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick17 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick18 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick19 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick20 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick21 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick22 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick23 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick24 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick25 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick26 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick27 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick28 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick29 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick30 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick31 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick32 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick33 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick34 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick35 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick36 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick37 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick38 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick39 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick40 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick41 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick42 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick43 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick44 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick45 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick46 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick47 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick48 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick49 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick50 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick51 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick52 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick53 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick54 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick55 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick56 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick57 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick58 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick59 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick60 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick61 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick62 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick63 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick64 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick65 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick66 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick67 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick68 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick69 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick70 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick71 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick72 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick73 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick74 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick75 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick76 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick77 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick78 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick79 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick80 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick81 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick82 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick83 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick84 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick85 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick86 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick87 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick88 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick89 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick90 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick91 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick92 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick93 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick94 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick95 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick96 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick97 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick98 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick99 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick100 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick101 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick102 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick103 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick104 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick105 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick106 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick107 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick108 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick109 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick110 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick111 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick112 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick113 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick114 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick115 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick116 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick117 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick118 3
+        weight: 1
+      - path: nurbsCircle4/largeBrick119 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick1 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick2 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick3 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick4 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick5 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick6 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick7 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick8 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick9 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick10 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick11 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick12 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick13 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick14 3
+        weight: 1
+      - path: nurbsCircle4/smallBrick15 3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Falling
+      takeName: Take 001
+      firstFrame: 2
       lastFrame: 5008
       wrapMode: 0
       orientationOffsetY: 0
@@ -4982,16 +5009,16 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Stationary
+      name: Drop
       takeName: Take 001
-      firstFrame: 5007
-      lastFrame: 5008
+      firstFrame: 5010
+      lastFrame: 5034
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -6106,16 +6133,16 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Floating
+      name: Frozen
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 1
+      firstFrame: 5035
+      lastFrame: 5036
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -6127,7 +6154,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: AnimationEventOnFreeze
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1

@@ -94,7 +94,8 @@ namespace Scratch
 			fallingBricks.SetActive (fallingBricksActive);
 			if (fallingBricksActive) {
 				fallingBricksAnimator.SetBool (fallingBricksAnimationFrozenBool, blocking);
-				fallingBricksAnimator.SetBool (fallingBricksAnimationBool, constructions.Count > 0);
+				fallingBricksAnimator.SetBool (fallingBricksAnimationBool, constructions.Count > 0
+					&& accumulatedConstruction < constructionCost);
 			}
 
 		}
