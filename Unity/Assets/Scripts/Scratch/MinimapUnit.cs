@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class MinimapUnit : MonoBehaviour
+public class MinimapUnit : UnityEngine.Networking.NetworkBehaviour
 {
 	public static HashSet<MinimapUnit> minimappables = new HashSet<MinimapUnit> ();
 	public Color color = Color.white;
@@ -12,6 +12,10 @@ public class MinimapUnit : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		if (isLocalPlayer) {
+			color = Color.green;
+		}
+
 		if (enabled) {
 			AddToMinimap ();
 		}

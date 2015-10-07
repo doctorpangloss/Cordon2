@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 namespace Scratch
@@ -10,7 +10,7 @@ namespace Scratch
 		// Use this for initialization
 		void Start ()
 		{
-			gameController.OnGameOver += OnGameOver;
+			gameController.DidGameOver += OnGameOver;
 		}
 	
 		// Update is called once per frame

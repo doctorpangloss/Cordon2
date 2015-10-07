@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 
@@ -27,7 +27,7 @@ namespace Scratch
 				return;
 			}
 
-			GameController.instance.OnGameOver += HandleOnGameOver;
+			GameController.instance.DidGameOver += HandleOnGameOver;
 
 			controller = GetComponent<CharacterController> ();
 		}

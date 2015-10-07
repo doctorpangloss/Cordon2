@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 using Pathfinding;
@@ -61,7 +61,7 @@ namespace Scratch
 
 			ChooseWaypoint ();
 
-			GameController.instance.OnGameOver += HandleOnGameOver;
+			GameController.instance.DidGameOver += HandleOnGameOver;
 		}
 
 		void HandleOnGameOver ()

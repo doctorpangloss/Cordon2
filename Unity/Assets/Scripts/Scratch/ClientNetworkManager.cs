@@ -107,6 +107,10 @@ namespace Scratch
 			Debug.Log ("Listing matches...");
 			if (!requestingMatch) {
 				requestingMatch = true;
+				if (networkManager.matchMaker == null) {
+					requestingMatch = false;
+					yield break;
+				}
 				networkManager.matchMaker.ListMatches (0, 20, "", OnMatchList);
 			}
 		}
