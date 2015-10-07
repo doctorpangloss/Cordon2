@@ -34037,7 +34037,7 @@ MonoBehaviour:
   block: {fileID: 6561392}
   fallingBricks: {fileID: 120282}
   fallingBricksAnimator: {fileID: 9514792}
-  fallingBricksAnimationLength: 83.4499969
+  fallingBricksAnimationLength: 76.9300003
   fallingBricksAnimationBool: falling_b
   fallingBricksAnimationSpeedParameter: speed_f
   fallingBricksAnimationFrozenBool: frozen_b
@@ -34109,6 +34109,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalPosition.y
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fallingBricksAnimationLength
+      value: 76.9300003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

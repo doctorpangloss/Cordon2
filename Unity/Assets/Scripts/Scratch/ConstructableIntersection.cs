@@ -111,18 +111,20 @@ namespace Scratch
 				return;
 			}
 
-			// If we're in the middle of construction, pause the animation
-			if (constructions.Count == 0) {
-				fallingBricksAnimator.SetFloat (fallingBricksAnimationSpeedParameter, 0f);
-				// TODO: Hide / unhide bricks that have not yet deployed.
-				return;
-			}
+//			// If we're in the middle of construction, pause the animation
+//			if (constructions.Count == 0) {
+//				fallingBricksAnimator.SetFloat (fallingBricksAnimationSpeedParameter, 0f);
+//				// TODO: Hide / unhide bricks that have not yet deployed.
+//				return;
+//			}
 
 			if (accumulatedConstruction >= constructionCost) {
 				return;
 			}
 
-			// How much animation is remaining?
+			if (accumulatedConstruction == 0) {
+				return;
+			}
 
 			var state = fallingBricksAnimator.GetCurrentAnimatorStateInfo (0);
 
@@ -133,7 +135,7 @@ namespace Scratch
 			}
 
 			var realSecondsLength = fallingBricksAnimationLength;
-			var rateOfConstruction = constructions.Count * constructionRate;
+			var rateOfConstruction = constructions.Count == 0 ? -depletionRate : constructions.Count * constructionRate;
 			if (rateOfConstruction == 0) {
 				return;
 			}
@@ -142,13 +144,19 @@ namespace Scratch
 			var normalizedTime = state.normalizedTime;
 
 			var remainingNormalized = 1 - (normalizedTime - Mathf.Floor (normalizedTime));
+			// Deal with depletion
+			if (rateOfConstruction < 0) {
+				remainingNormalized = normalizedTime;
+			}
+
 
 			// What speed do we need to set the animation in order to finish the construction at the right time?
 			var animationSecondsRemaining = remainingNormalized * realSecondsLength;
-			var constructionSecondsRemaining = (constructionCost - accumulatedConstruction) / rateOfConstruction;
+			var remainingConstruction = (rateOfConstruction > 0) ? (constructionCost - accumulatedConstruction) : accumulatedConstruction;
+			var constructionSecondsRemaining = Mathf.Abs (remainingConstruction / rateOfConstruction);
 
 			// Calculate a new speed. We want the number of real seconds remaining to equal the construction seconds remaining
-			var newSpeed = Mathf.Clamp (rateOfConstruction * (animationSecondsRemaining / constructionSecondsRemaining), 0, 120f);
+			var newSpeed = Mathf.Clamp (rateOfConstruction * (animationSecondsRemaining / constructionSecondsRemaining), -120f, 120f);
 			fallingBricksAnimator.SetFloat (fallingBricksAnimationSpeedParameter, newSpeed);
 		}
 

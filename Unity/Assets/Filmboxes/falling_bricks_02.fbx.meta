@@ -3887,7 +3887,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Falling
       takeName: Take 001
-      firstFrame: 2
+      firstFrame: 400
       lastFrame: 5008
       wrapMode: 0
       orientationOffsetY: 0
