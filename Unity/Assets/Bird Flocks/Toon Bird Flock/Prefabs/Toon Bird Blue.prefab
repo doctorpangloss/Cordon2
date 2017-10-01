@@ -740,12 +740,15 @@ MonoBehaviour:
   _stuckCounter: 0
   _damping: 0
   _soar: 1
-  _flatFlyDown: 0
   _landing: 0
-  _landingSpotted: 0
   _targetSpeed: 0
   _move: 1
   _model: {fileID: 100048}
+  _modelT: {fileID: 400048}
+  _avoidValue: 0
+  _avoidDistance: 0
+  _avoid: 1
+  _thisT: {fileID: 400000}
 --- !u!137 &13700000
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

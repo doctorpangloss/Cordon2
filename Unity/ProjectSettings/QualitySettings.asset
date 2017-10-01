@@ -58,10 +58,10 @@ QualitySettings:
     name: Simple
     pixelLightCount: 1
     shadows: 1
-    shadowResolution: 0
+    shadowResolution: 2
     shadowProjection: 1
     shadowCascades: 1
-    shadowDistance: 130
+    shadowDistance: 133.970001
     shadowNearPlaneOffset: 2
     shadowCascade2Split: .333333343
     shadowCascade4Split: {x: .0666666701, y: .200000003, z: .466666669}
